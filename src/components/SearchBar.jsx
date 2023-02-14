@@ -10,7 +10,7 @@ function SearchBar() {
   return (
     <div className='search-wrapper'>
         <input type="search" placeholder="Search for products"/>
-        <button>
+        <button className='search-button'>
           <SearchIcon className="search-icon" />
         </button>
     </div>

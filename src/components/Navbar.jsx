@@ -1,6 +1,8 @@
 import SearchBar from './SearchBar';
 import "../styles/navbar.css"
 import {Link} from 'react-router-dom'
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 function Navbar() {
   return (
@@ -14,6 +16,13 @@ function Navbar() {
             </ul>
         </div>
         <SearchBar/>
+        <Link to="account" className='login-button'>
+          <Person2OutlinedIcon className="account-icon" />
+          LOGIN/REGISTER
+        </Link>
+        <Link to="cart" className='cart-button'>
+          <ShoppingCartOutlinedIcon className="cart-icon" sx={{fontSize: '1.9rem'}}/>
+        </Link>
     </nav>
   )
 }

@@ -2,28 +2,32 @@ input[type="search"] {
     outline: none;
     border: 2px solid var(--primary);
     border-right: none;
-    width: 25rem;
+    width: inherit;
     padding: 8px 10px;
     border-radius: 8px 0 0 8px;
     height: inherit;
     font-family: inherit;
     font-size: inherit;
 }
-input[type="search"]:focus, input[type="search"]:focus + button {
+input[type="search"]:focus, input[type="search"]:focus + .search-button {
     border-color: var(--secondary);
 } 
 .search-wrapper {
+    min-width: 194px;
+    width: 90%;
     gap: 0;
     align-items: center;
     height: 2.3rem;
 }
-button {
+.search-button {
     border: 2px solid var(--primary);
     border-left: none;
     background-color: var(--primary);
     height: inherit;
+    width: 2.25rem;
     padding: 4px;
     border-radius: 0 8px 8px 0;
+    cursor: pointer;
 }
 .search-icon {
     font-size: 26px;
