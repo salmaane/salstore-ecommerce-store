@@ -1,11 +1,22 @@
-:root {
-    --bg-color: #222327;  
-    --text-color: #fff;
-    --primary: #29fd53;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+:root {
+    --bg-color: #fff;  
+    --text-color: #333;
+    --primary: #41a58d;
+    --secondary: #286955;
+    --side-padding: 7%;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 body {
     color: var(--text-color);
     background-color: var(--bg-color);
-    padding: 0 7%;
 }

@@ -1,0 +1,40 @@
+nav {
+    padding: 0.5rem var(--side-padding);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+nav > div {
+    display: flex;
+    gap: 4rem;
+}
+.logo {
+    width: 8rem;
+    margin: 0 0 10px 0;
+
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.nav-links a {
+    color: inherit;
+}
+.nav-links a::after {
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background-color: var(--primary);
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    transition: width 0.2s linear;
+}
+.nav-links a:hover::after {
+    width: 100%;
+}
+.nav-links a:hover {
+    color: black;
+}

@@ -1,13 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 // import {Outlet} from 'react-router-dom'; 
 
 function Layout() {
   return (
     <>
       <header>
-        <nav>
-          <h1>Salmane</h1>
-        </nav>
+        <Navbar/>
       </header>
     </>
   )
