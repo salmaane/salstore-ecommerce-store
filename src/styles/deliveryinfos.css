@@ -1,0 +1,24 @@
+.delivery-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-color2);
+    padding: 1.5rem var(--side-padding);
+    font-size: 14px;
+}
+.delivery-wrapper p {
+    color: #555;
+}
+.delivery-wrapper h4 {
+    margin-bottom: 8px;
+}
+.prop-icon {
+    color: var(--primary);
+}
+.prop-wrapper {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
