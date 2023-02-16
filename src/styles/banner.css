@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.banner-container {
+    color: #fff;
+    font-family: Bangers, "sans-serif";
+    background-image: url("/assets/images/Bannerbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100vh;
+    margin-top: -70px;
+    padding: 1rem var(--side-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.banner-container h1 {
+    width: 35%;
+    font-size: 5rem;
+}
+.product-image {
+    width: 60%;
+}

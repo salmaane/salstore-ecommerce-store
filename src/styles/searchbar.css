@@ -1,4 +1,6 @@
 input[type="search"] {
+    color: var(--text-color);
+    background-color: transparent;
     outline: none;
     border: 2px solid var(--primary);
     border-right: none;

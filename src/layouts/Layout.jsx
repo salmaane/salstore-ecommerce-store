@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 function Layout() {
   return (
     <>
-      <header>
+      <header style={{display:'unset'}}>
         <Navbar/>
       </header>
       <main>

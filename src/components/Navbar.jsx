@@ -6,7 +6,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 function Navbar() {
   return (
-    <nav>
+    <nav className='navbar'>
         <div>
             <Link to="/"><img src="/assets/logo/logo2.png" alt="logo" className='logo'/></Link>
             <ul className="nav-links">
