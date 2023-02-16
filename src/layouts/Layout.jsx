@@ -1,17 +1,19 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 
 function Layout() {
+  const navbarRef = useRef(null); 
+
   return (
     <>
       <header style={{display:'unset'}}>
-        <Navbar/>
+        <Navbar ref={navbarRef} />
       </header>
       <main>
-        <Outlet/>
+        <Outlet context={{ref: navbarRef}} />
       </main>
       <footer>
         <Footer />

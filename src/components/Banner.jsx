@@ -1,33 +1,75 @@
 import '../styles/banner.css';
-import {useRef,useEffect} from 'react';
+import {useRef,useEffect,forwardRef} from 'react';
+import {Link} from 'react-router-dom';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-function Banner() {
-
-  const navbar = document.querySelector(".navbar");
-  // need to use forwardRef instead
+ const Banner = forwardRef(function Banner(props,navbarRef) {
 
   const banner = useRef(null);
-  const observerOptions = {
-    rootMargin: '-71px 0px 0px 0px',
-  };
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry=>{
-
-      navbar.classList.toggle("navbar-intersecting",entry.isIntersecting); 
-    
-    })
-  },observerOptions);
-  
   useEffect(()=>{
+    const observerOptions = {
+      rootMargin: '-71px 0px 0px 0px',
+    };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry=>{
+        
+        navbarRef.current.classList.toggle("navbar-intersecting",entry.isIntersecting); 
+
+      })
+    },observerOptions);
     observer.observe(banner.current);
-  }); 
-    
+  });
+
   return (
-    <section className='banner-container' ref={banner}>
-        <h1>Nike Blaze Mid 77 Bicycle Yellow</h1>
-        <img src="/assets/images/NikeShoes.png" alt='' className='product-image'/>
-    </section>
+    <div ref={banner}>
+      <Carousel {...settings}>
+        {bannerData.map(slide => (
+              <section className='banner-container' key={slide.id}>
+                <div className='title-wrapper'>
+                  <h1>{slide.title}</h1>
+                  <Link to="/" className='banner-button' >Shop Now</Link>
+                </div>
+                <img src={slide.productImage} alt="" className='product-image'/>
+              </section>
+        ))}
+      </Carousel>
+    </div>
   )
+});
+
+
+const settings = {
+  showThumbs: false,
+  showStatus: false,
+  infiniteLoop: true,
+  autoPlay:true,
+  interval:13e3,
+  stopOnHover:false,
+  // animationHandler: 'fade',
 }
 
-export default Banner
+
+const bannerData = [
+  {
+    id: 1,
+    "title": "Nike Blaze Mid 77 Bicycle Yellow",
+    "productImage" : "/assets/images/NikeShoes.png",
+    "bgImage" : "/assets/images/Bannerbackground.jpg"
+  },
+  {
+    id: 2,
+    "title": "Nike Blaze Mid 77 Bicycle Yellow",
+    "productImage" : "/assets/images/NikeShoes.png",
+    "bgImage" : "/assets/images/Bannerbackground.jpg"
+  },
+  {
+      id: 3,
+      "title": "Nike Blaze Mid 77 Bicycle Yellow",
+      "productImage" : "/assets/images/NikeShoes.png",
+      "bgImage" : "/assets/images/Bannerbackground.jpg"
+    }
+];
+
+
+  export default Banner

@@ -5,19 +5,40 @@
     font-family: Bangers, "sans-serif";
     background-image: url("/assets/images/Bannerbackground.jpg");
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;  
     height: 100vh;
-    margin-top: -70px;
     padding: 1rem var(--side-padding);
     display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
 }
 .banner-container h1 {
-    width: 35%;
-    font-size: 5rem;
+    font-size: 6em;
 }
 .product-image {
-    width: 60%;
+    flex: 40%;
+}
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 35%;
+    text-align: left;
+}
+
+.banner-button {
+    width: 7rem;
+    padding: 7px 9px;
+    color:#fff;
+    font-size: 1.4rem;
+    background-color: tomato;
+    border: 4px solid tomato;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.banner-button:hover {
+    background-color: transparent;
 }

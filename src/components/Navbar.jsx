@@ -1,12 +1,16 @@
 import SearchBar from './SearchBar';
 import "../styles/navbar.css"
 import {Link} from 'react-router-dom'
+import { forwardRef } from 'react';
+// Icons
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
-function Navbar() {
+
+const Navbar = forwardRef(function Navbar(props,ref) {
+
   return (
-    <nav className='navbar'>
+    <nav className='navbar' ref={ref}>
         <div>
             <Link to="/"><img src="/assets/logo/logo2.png" alt="logo" className='logo'/></Link>
             <ul className="nav-links">
@@ -25,6 +29,6 @@ function Navbar() {
         </Link>
     </nav>
   )
-}
+});
 
 export default Navbar
