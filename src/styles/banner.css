@@ -18,8 +18,9 @@
 .banner-container h1 {
     font-size: 6em;
 }
-.product-image {
+.banner-container .product-image {
     flex: 40%;
+    pointer-events: none;
 }
 .title-wrapper {
     display: flex;
@@ -28,7 +29,6 @@
     flex: 35%;
     text-align: left;
 }
-
 .banner-button {
     width: 7rem;
     padding: 7px 9px;
@@ -41,4 +41,9 @@
 }
 .banner-button:hover {
     background-color: transparent;
+}
+
+.banner-loading {
+    height: 100vh;
+    background-color: darkslategray;
 }
