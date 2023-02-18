@@ -1,11 +1,13 @@
 import '../styles/banner.css';
-import {useRef,useEffect,forwardRef} from 'react';
+import {useRef,useEffect, useContext} from 'react';
 import {Link} from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import NavbarContext from '../contexts/NavbarContext';
 
- const Banner = forwardRef(function Banner(props,navbarRef) {
+ function Banner() {
 
+  const navbarRef = useContext(NavbarContext);
   const banner = useRef(null);
   useEffect(()=>{
     const observerOptions = {
@@ -36,7 +38,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
       </Carousel>
     </div>
   )
-});
+}
 
 
 const settings = {
@@ -45,7 +47,7 @@ const settings = {
   infiniteLoop: true,
   autoPlay:true,
   interval:13e3,
-  stopOnHover:false,
+  stopOnHover:true,
   // animationHandler: 'fade',
 }
 

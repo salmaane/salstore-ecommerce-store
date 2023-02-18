@@ -1,16 +1,19 @@
 import SearchBar from './SearchBar';
 import "../styles/navbar.css"
+import { useContext } from 'react';
 import {Link} from 'react-router-dom'
-import { forwardRef } from 'react';
+
+// Contexts
+import NavbarContext from '../contexts/NavbarContext';
 // Icons
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 
-const Navbar = forwardRef(function Navbar(props,ref) {
-
+function Navbar() {
+  const navbarRef = useContext(NavbarContext);
   return (
-    <nav className='navbar' ref={ref}>
+    <nav className='navbar' ref={navbarRef}>
         <div>
             <Link to="/"><img src="/assets/logo/logo2.png" alt="logo" className='logo'/></Link>
             <ul className="nav-links">
@@ -29,6 +32,6 @@ const Navbar = forwardRef(function Navbar(props,ref) {
         </Link>
     </nav>
   )
-});
+}
 
 export default Navbar
