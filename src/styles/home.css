@@ -1,0 +1,53 @@
+.mini-banner {
+    width: 100%;
+    display: flex;
+    background: rgb(47,180,183);
+    background: linear-gradient(90deg, rgba(47,180,183,1) 36%, rgba(149,207,123,1) 100%);
+    position: relative;
+}
+.mini-banner::after {
+    content:"";
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(47,180,183,1) 36%, rgba(149,207,123,1) 100%);
+}
+.mini-banner img {
+    width: 20rem;
+    flex: 40%;
+}
+.mini-banner .text-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 3rem 8%;
+    justify-content: center;
+    text-align: left;
+}
+.mini-banner .text-container h1 {
+    font-family: Bangers, "sans-serif";
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: #000;
+}
+.mini-banner .text-container h3 {
+    color: #fff;
+}
+.mini-banner .text-container a {
+    width: fit-content;
+    padding: 2px 9px;
+    letter-spacing: 1.5px;
+    margin-top: 1rem;
+    font-family: Bangers, "sans-serif";
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: tomato;
+    border: 4px solid tomato;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+.mini-banner .text-container a:hover {
+    background-color: transparent;
+}

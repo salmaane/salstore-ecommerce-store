@@ -1,6 +1,10 @@
 import React from 'react';
+import "../styles/home.css";
 import Banner from '../components/Banner';
 import ProductsSection from '../components/ProductsSection';
+import {Link} from 'react-router-dom';
+import BrandsCarousel from '../components/BrandsCarousel';
+
 
 function Home() {  
   return (
@@ -11,6 +15,22 @@ function Home() {
         header={"OUR PRODUCTS"}
         buttonText={"SHOP PRODUCTS"} 
       />
+
+      <div className='mini-banner'>
+        <img src="assets/images/Nike-white.png" alt="" />
+        <div className='text-container'>
+          <h1>ORDER NOW</h1>
+          <h3>And enjoy the best sneakers sales service in USA</h3>
+          <Link to="products" >SEE THE CATALOGUE</Link>
+        </div>
+      </div>
+
+      <ProductsSection
+        sneakersData={sneakers}
+        header={"NEW RELEASES"}
+        buttonText={"SHOP NEW RELEASES"}
+      />
+      <BrandsCarousel />
     </div>
   )
 }

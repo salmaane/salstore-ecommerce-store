@@ -1,7 +1,7 @@
 .products-section {
     width: 100%;
     padding: 0 var(--side-padding);
-    margin: 3.5rem 0;
+    margin: 6rem 0;
     display: flex;
     gap: 2rem;
     flex-direction: column;
@@ -12,7 +12,7 @@
     padding: 0.7rem 1.3rem;
     color: #fff;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     align-self: center;
     cursor: pointer;
@@ -22,7 +22,7 @@
     transition: background-color 0.2s;
 }
 .products-section h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .products-wrapper {
     width: 100%;
