@@ -24,6 +24,15 @@
 .item-card .title {
     height: 3rem;
 }
+.item-card .price {
+    color: #fff;
+    background-color: #000;
+    width: fit-content;
+    text-align: center;
+    padding: 3px 0.4rem;
+    border-radius: 4px;
+    font-size: bold;
+}
 
 .item-card .add-to-cart {
     color: var(--primary);

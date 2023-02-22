@@ -16,6 +16,7 @@
 .mini-banner img {
     width: 20rem;
     flex: 40%;
+    border-right: 1px solid #fff;
 }
 .mini-banner .text-container {
     width: 70%;
