@@ -1,0 +1,17 @@
+.leaflet-container {
+    height: 350px;
+    width: 60%;
+    z-index: 0;
+}
+.map-section-container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+    margin: 3rem 0;
+}
+.map-section-container h1 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}

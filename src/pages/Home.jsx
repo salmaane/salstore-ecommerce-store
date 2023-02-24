@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import ProductsSection from '../components/ProductsSection';
 import {Link} from 'react-router-dom';
 import BrandsCarousel from '../components/BrandsCarousel';
+import LeafletMap from '../components/LeafletAPI/LeafletMap';
 
 
 function Home() {  
@@ -31,6 +32,7 @@ function Home() {
         buttonText={"SHOP NEW RELEASES"}
       />
       <BrandsCarousel />
+      <LeafletMap />
     </div>
   )
 }

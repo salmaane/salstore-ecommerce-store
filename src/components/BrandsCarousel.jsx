@@ -31,14 +31,22 @@ function BrandsCarousel() {
 `;
 
   return (
-    <StyledSlider {...settings} style={{padding:'0 6%'}} >
+    <div style={{
+        display:'flex',
+        flexDirection:'column',
+        padding:'0 6%',
+        gap:'2rem',
+    }}>
+      <h1 style={{fontSize:'2rem',textAlign:'center',color:'black'}}>OUR BRANDS</h1>
+      <StyledSlider {...settings}>
         {brands.map( (brand, index) => (
             <div className='brand-slide' key={index}>
                 <Link to="/products"><img src={brand.img} alt=""/></Link>
                 <h2>{brand.name}</h2>
             </div>
         ))}
-    </StyledSlider>
+      </StyledSlider>
+    </div>
   )
 }
 
