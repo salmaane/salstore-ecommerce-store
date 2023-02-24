@@ -4,31 +4,31 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 
-function BrandsCarousel() {
-
-    const StyledSlider = styled(Slider)`
-    .slick-list {
-        margin-bottom: 1.5rem;
-        width: 100%;
-    }
-    .slick-arrow {
-        display: none !important;
-    }
-    .slick-dots {
-        position: relative !important;
-        bottom: 0;
-        margin-bottom: 3rem !important;
-    }
-     .slick-list img{
-       width: 15rem !important;
-     }
-     .slick-list .brand-slide {
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-     }
+const StyledSlider = styled(Slider)`
+.slick-list {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.slick-arrow {
+    display: none !important;
+}
+.slick-dots {
+    position: relative !important;
+    bottom: 0;
+    margin-bottom: 3rem !important;
+}
+ .slick-list img{
+   width: 15rem !important;
+ }
+ .slick-list .brand-slide {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+ }
 
 `;
+
+function BrandsCarousel() {
 
   return (
     <div style={{

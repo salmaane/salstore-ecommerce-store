@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+    user-select: none;
 }
 .banner-container h1 {
     font-size: 6em;
