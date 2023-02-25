@@ -1,11 +1,9 @@
 import React from 'react';
-import "../styles/home.css";
-import Banner from '../components/Banner';
-import ProductsSection from '../components/ProductsSection';
-import {Link} from 'react-router-dom';
-import BrandsCarousel from '../components/BrandsCarousel';
+import Banner from '../components/home/Banner';
+import ProductsSection from '../components/home/ProductsSection';
+import BrandsCarousel from '../components/home/BrandsCarousel';
 import LeafletMap from '../components/LeafletAPI/LeafletMap';
-
+import MiniBanner from '../components/home/MiniBanner';
 
 function Home() {  
   return (
@@ -16,16 +14,12 @@ function Home() {
         header={"OUR PRODUCTS"}
         buttonText={"SHOP PRODUCTS"} 
       />
-
-      <div className='mini-banner'>
-        <img src="assets/images/Nike-white.png" alt="" />
-        <div className='text-container'>
-          <h1>ORDER NOW</h1>
-          <h3>And enjoy the best sneakers sales service in USA</h3>
-          <Link to="products" >SEE THE CATALOGUE</Link>
-        </div>
-      </div>
-
+      <MiniBanner 
+        imgSRC="assets/images/Nike-white.png"
+        title="ORDER NOW"
+        subTitle="And enjoy the best sneakers sales service in USA"
+        buttonText="SEE THE CATALOGUE"
+      />
       <ProductsSection
         sneakersData={sneakers}
         header={"NEW RELEASES"}

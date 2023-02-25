@@ -1,9 +1,9 @@
-import '../styles/banner.css';
+import '../../styles/banner.css';
 import {useRef,useEffect, useContext, useState} from 'react';
 import {Link} from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import NavbarContext from '../contexts/NavbarContext';
+import NavbarContext from '../../contexts/NavbarContext';
 
  function Banner() {
 

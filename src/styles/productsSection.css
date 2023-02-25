@@ -10,12 +10,14 @@
     width: fit-content;
     background-color: #000;
     padding: 0.7rem 1.3rem;
-    color: #fff;
     border: none;
     font-size: 1rem;
     font-weight: bold;
     align-self: center;
     cursor: pointer;
+}
+.products-section .shop-button a {
+    color: #fff;
 }
 .products-section .shop-button:hover {
     background-color: #333;

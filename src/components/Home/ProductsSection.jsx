@@ -1,6 +1,6 @@
-import '../styles/productsSection.css';
-import ProductCard from './ProductCard';
-
+import '../../styles/productsSection.css';
+import ProductCard from '../ProductCard';
+import {Link} from "react-router-dom";
 
 function ProductsSection({sneakersData, header, buttonText}) {
   return (
@@ -11,7 +11,7 @@ function ProductsSection({sneakersData, header, buttonText}) {
           <ProductCard item={item} key={item.id}/>
         ))}
       </div>
-      <button className='shop-button'>{buttonText}</button>
+      <button className='shop-button'><Link to="products">{buttonText}</Link></button>
     </section>
   )
 }

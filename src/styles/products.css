@@ -1,0 +1,14 @@
+.products-page-container {
+    background-color: #F5FFFA;
+}
+.products-filter-header {
+    display: flex;
+    background-color: #fff;
+    margin-top: 4.3rem;
+    margin-bottom: 2rem;
+    padding: 5rem var(--side-padding);
+    justify-content: center;
+}
+.products-page-body {
+    padding: 0 var(--side-padding);
+}  
