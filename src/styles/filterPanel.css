@@ -1,11 +1,13 @@
 .filter-container {
-    width: 18rem;
+    max-width: 19rem;
+    min-width: 19rem;
     background-color: #fff;
     border: 0.5px solid #ddd;
-    padding: 1rem 0.9rem;
+    padding: 1.55rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    box-shadow: 0px 0px 11px 0.5px rgba(0,0,0,0.1);
 }
 .filter {
     display: flex;
@@ -47,5 +49,5 @@
 /* For Slider filter  */
 
 .slider-filter-container {
-    padding: 1rem;
+    padding: 0.8rem 1.5rem;
 }

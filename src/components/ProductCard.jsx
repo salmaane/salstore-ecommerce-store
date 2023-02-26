@@ -11,7 +11,7 @@ function ProductCard({item}) {
         />
         <p className='brand'>{item.brand}</p>
         <h3 className='title'>{item.title}</h3>
-        <h4 className='price'>${item.retailPrice}</h4>
+        <h4 className='price'>${item.retailPrice || 140}</h4>
         <button className="add-to-cart">
           Add to Cart
           <ShoppingCartOutlinedIcon className="cart-icon"/>  
