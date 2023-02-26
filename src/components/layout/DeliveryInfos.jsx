@@ -1,4 +1,4 @@
-import '../styles/deliveryinfos.css';
+import '../../styles/deliveryinfos.css';
 import CreditScoreOutlinedIcon from '@mui/icons-material/CreditScoreOutlined';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';

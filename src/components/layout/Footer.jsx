@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../styles/footer.css';
+import '../../styles/footer.css';
 import DeliveryInfos from './DeliveryInfos.jsx';
 
 function Footer() {

@@ -1,10 +1,10 @@
 import SearchBar from './SearchBar';
-import "../styles/navbar.css"
+import "../../styles/navbar.css"
 import { useContext } from 'react';
 import {Link} from 'react-router-dom'
 
 // Contexts
-import NavbarContext from '../contexts/NavbarContext';
+import NavbarContext from '../../contexts/NavbarContext';
 // Icons
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';

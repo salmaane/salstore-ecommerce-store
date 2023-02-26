@@ -1,5 +1,5 @@
 import "../styles/products.css";
-import Filter from "../components/productsPage/Filter";
+import FilterPanel from "../components/productsPage/FilterPanel";
 import ProductsColumn from "../components/productsPage/ProductsColumn";
 
 function Products() {
@@ -9,7 +9,7 @@ function Products() {
         <h2 className="products-filter-title" >SHOP ALL SNEAKERS</h2>
       </div>
       <section className="products-page-body">
-        <Filter/>
+        <FilterPanel/>
         <ProductsColumn/>
       </section>
     </div>
