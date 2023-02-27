@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import NavbarContext from '../../contexts/NavbarContext';
+import {useFetch} from '../../customHooks/useFetch.js';
 
  function Banner() {
 
@@ -23,18 +24,13 @@ import NavbarContext from '../../contexts/NavbarContext';
     observer.observe(bannerRef.current);
   });
 
-  // const [banners,setBanners] = useState([]);
-  // useEffect(()=> {
-  //   fetch("http://localhost:3000/banners")
-  //   .then(result => result.json())
-  //   .then(bannerData => setBanners(bannerData));
-  // },[]);
+  // const {data: banners} = useFetch("http://localhost:3000/banners");
   // here i used fake json server to fetch banners data.
 
   return (
     <div ref={bannerRef}>
       {
-        banners.length === 0 ? <div className='banner-loading'></div> 
+        !banners ? <h1 style={{fontSize:'5rem'}}>Im Loading...</h1> 
         :
         <Carousel {...settings}>
           {banners.map(slide => (
