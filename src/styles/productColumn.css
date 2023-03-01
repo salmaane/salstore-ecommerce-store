@@ -43,7 +43,11 @@
 .page-nav .back:hover, .page-nav .next:hover {
     color: #444;
 }
-.page-nav .back:hover:disabled {
+.page-nav .back:hover:disabled, .next:hover:disabled {
     color: #776;
     cursor:default;
+}
+.page-number {
+    color: #000;
+    font-size: 1.1rem;
 }

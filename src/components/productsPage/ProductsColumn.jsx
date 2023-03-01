@@ -11,17 +11,20 @@ function ProductsColumn() {
   function handleBackPage() {
     if(page == 1) return;
     setPage(prev=>prev-1);
+    window.scrollTo(0,0);
   }
   function handleNextPage() {
     setPage(prev=>prev+1);
+    window.scrollTo(0,0);
   }
   
   let pagination= "?_page="+ page +"&_limit=21";
-  const {data: products} = useFetch("http://localhost:3000/products/"+pagination); 
+  const {data: products, totalCount} = useFetch("http://localhost:3000/products/"+pagination); 
+  const totalPages = Math.ceil(totalCount/21);
 
   return (
     <div className="products-column">
-        <p className="results">RESULTS <span>{products.length}</span></p>
+        <p className="results">RESULTS <span>{totalCount}</span></p>
         {products.map( (product) => (
           <ProductCard 
             key={product.id}
@@ -36,9 +39,10 @@ function ProductsColumn() {
           >
             <ChevronLeftOutlinedIcon/>Back
           </button>
+          <p className="page-number">{page} of {totalPages}</p>
           <button 
             className="next"
-            disabled={products.length < 21}
+            disabled={page == totalPages}
             onClick={handleNextPage}
           >
           Next <NavigateNextOutlinedIcon/>
