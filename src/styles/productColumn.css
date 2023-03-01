@@ -1,4 +1,5 @@
 .products-column {
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1rem;
@@ -22,4 +23,27 @@
 }   
 .products-column .item-card .thumb {
     width: 10.5rem;
+}
+
+.page-nav {
+    grid-column: 1 / span 3;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    height: fit-content;
+}
+.page-nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.page-nav .back:hover, .page-nav .next:hover {
+    color: #444;
+}
+.page-nav .back:hover:disabled {
+    color: #776;
+    cursor:default;
 }

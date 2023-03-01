@@ -1,4 +1,5 @@
 .filter-container {
+    height: fit-content;
     max-width: 19rem;
     min-width: 19rem;
     background-color: #fff;

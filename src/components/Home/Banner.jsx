@@ -24,13 +24,12 @@ import {useFetch} from '../../customHooks/useFetch.js';
     observer.observe(bannerRef.current);
   });
 
-  // const {data: banners} = useFetch("http://localhost:3000/banners");
-  // here i used fake json server to fetch banners data.
+  const {data: banners, loading} = useFetch("http://localhost:3000/banners");
 
   return (
     <div ref={bannerRef}>
       {
-        !banners ? <h1 style={{fontSize:'5rem'}}>Im Loading...</h1> 
+        loading ? <h1 style={{fontSize:'5rem'}}>Im Loading...</h1> 
         :
         <Carousel {...settings}>
           {banners.map(slide => (
@@ -62,26 +61,6 @@ const settings = {
 }
 
 
-const banners = [
-  {
-    id: 1,
-    "title": "Nike Blaze Mid 77 Bicycle Yellow",
-    "productImage" : "/assets/images/NikeShoes.png",
-    "bgImage" : "/assets/images/Bannerbackground.jpg"
-  },
-  {
-    id: 2,
-    "title": "Nike Blaze Mid 77 Bicycle Yellow",
-    "productImage" : "/assets/images/NikeShoes.png",
-    "bgImage" : "/assets/images/Bannerbackground.jpg"
-  },
-  {
-      id: 3,
-      "title": "Nike Blaze Mid 77 Bicycle Yellow",
-      "productImage" : "/assets/images/NikeShoes.png",
-      "bgImage" : "/assets/images/Bannerbackground.jpg"
-    }
-];
 
 
 export default Banner
