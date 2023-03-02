@@ -192,7 +192,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Drew-League-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347861"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 100,
       "styleId": "CZ4272-100",
       "title": "Nike Air Force 1 Low Drew League (2020)",
       "year": 2020
@@ -208,7 +208,7 @@
         "thumbUrl": "https://stockx.imgix.net/adidas-Dame-6-Leather-Black-Gold.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420773"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 170,
       "styleId": "FV8627",
       "title": "adidas Dame 6 Leather Black Gold",
       "year": 2020
@@ -224,7 +224,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126620"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 160,
       "styleId": "",
       "title": "Nike Air Force 1 Low Rub Away Blue",
       "year": 2020
@@ -240,7 +240,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Black.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126619"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 160,
       "styleId": "",
       "title": "Nike Air Force 1 Low Rub-Away Black",
       "year": 2020
@@ -256,7 +256,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Red.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126621"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 200,
       "styleId": "",
       "title": "Nike Air Force 1 Low Rub Away Red",
       "year": 2020
@@ -272,7 +272,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Orange.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 150,
       "styleId": "CJ0611-100",
       "title": "Nike Air Max 90 Rub Away Orange",
       "year": 2020
@@ -288,7 +288,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432"
       },
       "releaseDate": "2020-06-06 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 180,
       "styleId": "",
       "title": "Nike Air Max 90 Rub Away Blue",
       "year": 2020
@@ -384,7 +384,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Menta.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638500"
       },
       "releaseDate": "2020-06-05 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 135,
       "styleId": "CJ2033-010",
       "title": "Nike Air Zoom Type Menta",
       "year": 2020
@@ -400,7 +400,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Summit-White.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638501"
       },
       "releaseDate": "2020-06-05 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 120,
       "styleId": "CJ2033-100",
       "title": "Nike Air Zoom Type Summit White",
       "year": 2020
@@ -656,7 +656,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Black.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684"
       },
       "releaseDate": "2020-06-02 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 150,
       "styleId": "CU9371-001",
       "title": "Nike Air Max 2090 Neymar Jr. Black",
       "year": 2020
@@ -672,7 +672,7 @@
         "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Brown.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684"
       },
       "releaseDate": "2020-06-02 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 70,
       "styleId": "CU9371-100",
       "title": "Nike Air Max 2090 Neymar Jr. Brown",
       "year": 2020
@@ -1344,7 +1344,7 @@
         "thumbUrl": "https://stockx.imgix.net/Vans-Slip-On-National-Geographic.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556382"
       },
       "releaseDate": "2020-06-01 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 110,
       "styleId": "VN0A4U38WT3",
       "title": "Vans Slip-On National Geographic",
       "year": 2020
@@ -1408,7 +1408,7 @@
         "thumbUrl": "https://stockx.imgix.net/Vans-Old-Skool-National-Geographic-GS.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380"
       },
       "releaseDate": "2020-06-01 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 135,
       "styleId": "VN0A4U3BWK6",
       "title": "Vans Old Skool National Geographic (GS)",
       "year": 2020
@@ -1424,7 +1424,7 @@
         "thumbUrl": "https://stockx.imgix.net/Vans-Authentic-National-Geographic.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381"
       },
       "releaseDate": "2020-06-01 23:59:59",
-      "retailPrice": null,
+      "retailPrice": 140,
       "styleId": "VN0A2Z5I002",
       "title": "Vans Authentic National Geographic",
       "year": 2020

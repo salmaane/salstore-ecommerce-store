@@ -9,8 +9,8 @@ function SliderFilter({value,handleRange}) {
             getAriaValueText={(value)=> {'$'+value}}
             valueLabelDisplay="auto"
             min={0}
-            max={1000}
-            step={50}
+            max={300}
+            step={20}
             onChange={handleRange}  
         />
     </div>
