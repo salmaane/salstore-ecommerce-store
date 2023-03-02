@@ -24,6 +24,7 @@
 }
 .item-card .title {
     min-height: 3rem;
+    overflow: hidden;
 }
 .item-card .price {
     color: #fff;

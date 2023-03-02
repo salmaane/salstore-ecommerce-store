@@ -12,11 +12,18 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 function Navbar() {
   const navbarRef = useContext(NavbarContext);
+  
+  function scrollToTop(e) {
+    if(e.target.tagName === 'A') {
+      window.scrollTo(0,0);
+    }
+  }
+
   return (
     <nav className='navbar' ref={navbarRef}>
         <div>
             <Link to="/"><img src="/assets/logo/logo2.png" alt="logo" className='logo'/></Link>
-            <ul className="nav-links">
+            <ul className="nav-links" onClick={scrollToTop} >
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/products">Products</Link></li>
                 <li><Link to="/contact">Contact</Link></li>

@@ -11,7 +11,14 @@ function ProductsSection({sneakersData, header, buttonText}) {
           <ProductCard item={item} key={item.id}/>
         ))}
       </div>
-      <button className='shop-button'><Link to="products">{buttonText}</Link></button>
+      <button className='shop-button'>
+        <Link 
+          to="products" 
+          onClick={()=>window.scrollTo(0,0)}
+        >
+          {buttonText}
+        </Link>
+      </button>
     </section>
   )
 }

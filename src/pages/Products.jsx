@@ -25,11 +25,14 @@ function Products() {
   }
 
   const [priceRange,setPriceRange] = useState([0,300]);
+  const timeoutId = useRef(null);
   function handlePriceRange(e,newRange) {
-    setPriceRange(newRange);
+    if(timeoutId.current) {
+      clearTimeout(timeoutId.current);
+    }
+    timeoutId.current = setTimeout(()=>setPriceRange(newRange),20);
   }
 
-  console.log(priceRange);
   return (
     <div className="products-page-container">
       <div className="products-filter-header">
@@ -77,6 +80,11 @@ const brandOptions = [
     id:4,
     checked:false,
     label:"Converse"
+  },
+  {
+    id:5,
+    checked:false,
+    label:"Puma"
   },
 ];
 const genderOptions = [

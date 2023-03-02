@@ -19,7 +19,7 @@
 }
 .products-page-body {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     padding: 2rem var(--side-padding);
     justify-content: space-evenly;
     margin: 4rem 0;

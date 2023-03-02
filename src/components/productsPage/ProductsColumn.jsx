@@ -26,14 +26,14 @@ function ProductsColumn({brands,genders,colors,priceRange}) {
   const colorQuery = getToggleFilterQuery(colors,"&colorway_like=");
   const priceQuery = "&retailPrice_gte="+priceRange[0] + "&retailPrice_lte="+priceRange[1];
   
-  const filters = "&brand_like=&gender_like=&colorway_like=&retailPrice_gte=&retailPrice_lte=300"; // for filterPanel
-  const pagination= "?_page="+ page +"&_limit=21";                                                 // For products navigation
+  const filters = brandQuery + genderQuery + colorQuery + priceQuery;
+  const pagination= "?_page="+ page +"&_limit=21";
   const {data: products, totalCount} = useFetch("http://localhost:3000/products/"+pagination+filters); 
   const totalPages = Math.ceil(totalCount/21);
 
   return (
     <div className="products-column">
-        <p className="results">RESULTS <span>{totalCount}</span></p>
+        { totalCount==0 ? null :<p className="results">RESULTS <span>{totalCount}</span></p>}
         
         {products.map( (product) => (
           <ProductCard 
@@ -42,6 +42,12 @@ function ProductsColumn({brands,genders,colors,priceRange}) {
           />
         ) )}
 
+        { totalCount == 0 ?
+        <div className="no-results">
+          <h4>NO RESULTS FOUND</h4>
+          <p>Please check your filters or search for another sneaker</p>
+        </div>
+        :
         <nav className="page-nav">
           <button 
             className="back"
@@ -81,6 +87,7 @@ function ProductsColumn({brands,genders,colors,priceRange}) {
           Next <NavigateNextOutlinedIcon/>
           </button>
         </nav>
+        }
     </div>
   )
 }

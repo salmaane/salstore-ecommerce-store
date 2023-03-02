@@ -10,7 +10,7 @@ function SliderFilter({value,handleRange}) {
             valueLabelDisplay="auto"
             min={0}
             max={300}
-            step={20}
+            step={40}
             onChange={handleRange}  
         />
     </div>

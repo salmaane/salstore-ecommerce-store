@@ -1,4 +1,5 @@
 .products-column {
+    flex-grow: 1;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -53,4 +54,20 @@
 }
 .page-nav .first , .page-nav .last {
     font-size: 0.85rem;
+}
+
+.no-results {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    grid-column: 1 / span 3;
+}
+.no-results h4 {
+    color: #777;
+}
+.no-results p {
+    color: #888;
+    font-size: 0.9rem;
 }
