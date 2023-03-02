@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "../styles/products.css";
 import FilterPanel from "../components/productsPage/FilterPanel";
 import ProductsColumn from "../components/productsPage/ProductsColumn";
@@ -29,6 +29,7 @@ function Products() {
     setPriceRange(newRange);
   }
 
+  console.log(priceRange);
   return (
     <div className="products-page-container">
       <div className="products-filter-header">
@@ -46,7 +47,10 @@ function Products() {
           price={{priceRange, handlePriceRange}}
         />
         <ProductsColumn
+          brands={brands}
+          genders={genders}
           colors={colors}
+          priceRange={priceRange}
         />
       </section>
     </div>
@@ -79,17 +83,17 @@ const genderOptions = [
   {
     id:1,
     checked:false,
-    label:"Men",
+    label:"men",
   },
   {
     id:2,
     checked:false,
-    label:"Women",
+    label:"women",
   },
   {
     id:3,
     checked:false,
-    label:"Child",
+    label:"child",
   },
 ]
 const colorOptions = [

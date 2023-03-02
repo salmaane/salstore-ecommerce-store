@@ -27,4 +27,12 @@ function ToggleFilter({colors,handleToggle,options}) {
   )
 }
 
-export default ToggleFilter
+function getToggleFilterQuery(items, query) {
+  let queryStr = '';
+  items.forEach(item => {
+    queryStr += query + item;
+  })
+  return queryStr;
+}
+
+export { ToggleFilter as default, getToggleFilterQuery }

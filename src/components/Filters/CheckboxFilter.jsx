@@ -24,4 +24,16 @@ function CheckboxFilter({options, handleBrandCheck}) {
   )
 }
 
-export default CheckboxFilter
+function getCheckboxFilterQuery(items,query) {
+  let queryStr = '';
+  
+  items.forEach(item => {
+    if(item.checked) {
+      queryStr += query + item.label;
+    }
+  });
+
+  return queryStr;
+}
+
+export {CheckboxFilter as default, getCheckboxFilterQuery}

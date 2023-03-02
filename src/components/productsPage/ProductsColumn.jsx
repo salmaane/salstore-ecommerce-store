@@ -1,11 +1,14 @@
+import { useState } from "react";
 import "../../styles/productColumn.css";
 import ProductCard from "../ProductCard.jsx"
 import {useFetch} from "../../customHooks/useFetch";
-import { useState } from "react";
+import {getToggleFilterQuery} from '../Filters/ToggleFilter';
+import { getCheckboxFilterQuery } from "../Filters/CheckboxFilter";
+// icons
 import NavigateNextOutlinedIcon from '@mui/icons-material/NavigateNextOutlined';
 import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
 
-function ProductsColumn({colors}) {
+function ProductsColumn({brands,genders,colors,priceRange}) {
 
   const [page,setPage] = useState(1);
   function handleBackPage() {
@@ -17,9 +20,14 @@ function ProductsColumn({colors}) {
     setPage(prev=>prev+1);
     window.scrollTo(0,0);
   }
+
+  const brandQuery = getCheckboxFilterQuery(brands, "&brand_like=");
+  const genderQuery = getCheckboxFilterQuery(genders, "&gender=")
+  const colorQuery = getToggleFilterQuery(colors,"&colorway_like=");
+  const priceQuery = "&retailPrice_gte="+priceRange[0] + "&retailPrice_lte="+priceRange[1];
   
   const filters = "&brand_like=&gender_like=&colorway_like=&retailPrice_gte=&retailPrice_lte=300"; // for filterPanel
-  const pagination= "?_page="+ page +"&_limit=21";                                              // For products navigation
+  const pagination= "?_page="+ page +"&_limit=21";                                                 // For products navigation
   const {data: products, totalCount} = useFetch("http://localhost:3000/products/"+pagination+filters); 
   const totalPages = Math.ceil(totalCount/21);
 
