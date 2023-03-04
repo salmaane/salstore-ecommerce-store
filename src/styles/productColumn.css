@@ -6,11 +6,22 @@
     gap: 1rem;
     position: relative;
 }
-.results {
+.sort-results {
     position: absolute;
-    right: 10px;
-    top: -2rem;
+    width: 98%;
+    top: -2.4rem;
+    display: flex;
+    justify-content: space-between;
 }
+.sort-results #sort {
+    font: inherit;
+    font-size: 14px;
+    margin-left: 0.5rem;
+    background-color: #fff;
+    width: 7rem;
+    padding: 2px 10px;
+    border: none;
+} 
 .results span {
     color: #888;
     margin-left: 10px;
@@ -45,7 +56,7 @@
     color: #444;
 }
 .page-nav button:disabled {
-    color: #776;
+    color: #aaa;
     cursor:default;
 }
 .page-number {

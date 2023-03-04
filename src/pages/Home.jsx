@@ -9,10 +9,11 @@ function Home() {
   return (
     <div>
       <Banner/>
-      <ProductsSection 
+      <ProductsSection
         sneakersData={sneakers}
-        header={"OUR PRODUCTS"}
-        buttonText={"SHOP PRODUCTS"} 
+        header={"NEW RELEASES"}
+        buttonText={"SHOP NEW RELEASES"}
+        sort={"desc"}
       />
       <MiniBanner 
         imgSRC="assets/images/Nike-white.png"
@@ -20,10 +21,11 @@ function Home() {
         subTitle="And enjoy the best sneakers sales service in USA"
         buttonText="SEE THE CATALOGUE"
       />
-      <ProductsSection
+      <ProductsSection 
         sneakersData={sneakers}
-        header={"NEW RELEASES"}
-        buttonText={"SHOP NEW RELEASES"}
+        header={"OUR PRODUCTS"}
+        buttonText={"SHOP PRODUCTS"}
+        sort={"asc"} 
       />
       <BrandsCarousel />
       <LeafletMap />

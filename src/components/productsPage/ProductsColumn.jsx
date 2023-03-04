@@ -8,7 +8,7 @@ import { getCheckboxFilterQuery } from "../Filters/CheckboxFilter";
 import NavigateNextOutlinedIcon from '@mui/icons-material/NavigateNextOutlined';
 import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
 
-function ProductsColumn({brands,genders,colors,priceRange}) {
+function ProductsColumn({brands, genders, colors, priceRange, sort: {sort, handleSort}}) {
 
   const [page,setPage] = useState(1);
   function handleBackPage() {
@@ -25,15 +25,26 @@ function ProductsColumn({brands,genders,colors,priceRange}) {
   const genderQuery = getCheckboxFilterQuery(genders, "&gender=")
   const colorQuery = getToggleFilterQuery(colors,"&colorway_like=");
   const priceQuery = "&retailPrice_gte="+priceRange[0] + "&retailPrice_lte="+priceRange[1];
-  
+  const sortQuery = "&_sort=releaseDate&_order="+ sort;
+
   const filters = brandQuery + genderQuery + colorQuery + priceQuery;
   const pagination= "?_page="+ page +"&_limit=21";
-  const {data: products, totalCount} = useFetch("http://localhost:3000/products/"+pagination+filters); 
+  const {data: products, totalCount} = useFetch("http://localhost:3000/products/"+pagination+filters+sortQuery); 
   const totalPages = Math.ceil(totalCount/21);
 
   return (
     <div className="products-column">
-        { totalCount==0 ? null :<p className="results">RESULTS <span>{totalCount}</span></p>}
+        { totalCount==0 ? null :
+          <div className="sort-results">
+          <label htmlFor="sort" >Sort by:
+            <select name="sort" id="sort" value={sort} onChange={handleSort} >
+                <option value="asc" >Default</option>
+                <option value="desc" >Newest</option>
+              </select>
+          </label>
+            <p className="results">RESULTS <span>{totalCount}</span></p>
+          </div>
+        }
         
         {products.map( (product) => (
           <ProductCard 

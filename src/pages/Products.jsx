@@ -1,7 +1,8 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useContext } from "react";
 import "../styles/products.css";
 import FilterPanel from "../components/productsPage/FilterPanel";
 import ProductsColumn from "../components/productsPage/ProductsColumn";
+
 
 function Products() {
 
@@ -33,14 +34,19 @@ function Products() {
     timeoutId.current = setTimeout(()=>setPriceRange(newRange),20);
   }
 
+  const [sort,setSort] = useState('asc');
+  function handleSort(e) {
+    setSort(e.target.value);
+  }
+
+
   return (
     <div className="products-page-container">
       <div className="products-filter-header">
-        <h2 className="products-filter-title" >ALL SNEAKERS</h2>
-        <p className="filter-description">Lorem Ipsum is simply dummy text of the printing
-           and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s
-        </p>
+        <h2 className="products-filter-title" >
+          {sort === "desc" ? 'NEW RELEASES' : 'ALL SNEAKERS'}
+          </h2>
+        <p className="filter-description"></p>
       </div>
       <section className="products-page-body">
         <FilterPanel
@@ -54,6 +60,7 @@ function Products() {
           genders={genders}
           colors={colors}
           priceRange={priceRange}
+          sort={{sort,handleSort}}
         />
       </section>
     </div>
