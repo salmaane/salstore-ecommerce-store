@@ -1,44 +1,17 @@
-import { useState, useRef, useContext } from "react";
 import "../styles/products.css";
 import FilterPanel from "../components/productsPage/FilterPanel";
 import ProductsColumn from "../components/productsPage/ProductsColumn";
-
+import { useFiltersContext } from "../contexts/FiltersContext";
 
 function Products() {
 
-  const [brands,setBrands] = useState(brandOptions);
-  function handleBrandsCheck(id) {
-    setBrands(brands.map( brand => (
-      brand.id !== id ? brand : {...brand,checked: !brand.checked}
-    ) ));
-  }
-
-  const [genders,setGenders] = useState(genderOptions);
-  function handleGendersCheck(id) {
-    setGenders(genders.map( gender => (
-      gender.id !== id ? gender : {...gender,checked: !gender.checked}
-    ) ));
-  }
-
-  const [colors,setColors] = useState([]);
-  function handleColorToggle(e,newColors) {
-    setColors(newColors);
-  }
-
-  const [priceRange,setPriceRange] = useState([0,300]);
-  const timeoutId = useRef(null);
-  function handlePriceRange(e,newRange) {
-    if(timeoutId.current) {
-      clearTimeout(timeoutId.current);
-    }
-    timeoutId.current = setTimeout(()=>setPriceRange(newRange),20);
-  }
-
-  const [sort,setSort] = useState('asc');
-  function handleSort(e) {
-    setSort(e.target.value);
-  }
-
+  const {
+    sort,
+    brands, handleBrandsCheck,
+    genders, handleGendersCheck,
+    colors, handleColorToggle,
+    priceRange, handlePriceRange 
+  } = useFiltersContext();
 
   return (
     <div className="products-page-container">
@@ -60,57 +33,12 @@ function Products() {
           genders={genders}
           colors={colors}
           priceRange={priceRange}
-          sort={{sort,handleSort}}
         />
       </section>
     </div>
   )
 }
 
-const brandOptions = [
-  {
-    id:1,
-    checked:false,
-    label:"Nike"
-  },
-  {
-    id:2,
-    checked:false,
-    label:"Adidas"
-  },
-  {
-    id:3,
-    checked:false,
-    label:"New balance"
-  },
-  {
-    id:4,
-    checked:false,
-    label:"Converse"
-  },
-  {
-    id:5,
-    checked:false,
-    label:"Puma"
-  },
-];
-const genderOptions = [
-  {
-    id:1,
-    checked:false,
-    label:"men",
-  },
-  {
-    id:2,
-    checked:false,
-    label:"women",
-  },
-  {
-    id:3,
-    checked:false,
-    label:"child",
-  },
-]
 const colorOptions = [
   {
     id:1,

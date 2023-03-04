@@ -41,7 +41,12 @@ function BrandsCarousel() {
       <StyledSlider {...settings}>
         {brands.map( (brand, index) => (
             <div className='brand-slide' key={index}>
-                <Link to="/products"><img src={brand.img} alt=""/></Link>
+                <Link 
+                  to="/products"
+                  onClick={()=> {
+                    window.scrollTo(0,0);
+                  }}  
+                ><img src={brand.img} alt=""/></Link>
                 <h2>{brand.name}</h2>
             </div>
         ))}
@@ -59,39 +64,41 @@ const settings = {
     autoplay: true, 
     autoplaySpeed: 3000,
 };
-
 const brands = [
-    {
+    {   
+        "id" : 1,
         "name" : "Nike",
         "img" : "https://stockx.imgix.net/Nike-Kyrie-6-90s-GS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011",
     },
-    {
+    {   
+        "id" : 2,
         "name" : "Adidas",
         "img" : "https://stockx.imgix.net/adidas-Nite-Jogger-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356",
     },
-    {
+    {   
+        "id" : 3,
         "name" : "New Balance",
         "img" : "https://stockx.imgix.net/New-Balance-850-White-Team-Teal.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665",
     },
-    {
+    {   
+        "id" : 4,
+        "name" : "Converse",
+        "img" : "https://stockx.imgix.net/Converse-G4-Black-Solar-Red-Fresh-Mint.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952669",
+    },
+    {   
+        "id" : 6,
         "name" : "Reebok",
         "img" : "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Orange.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053",
     },
-    {
+    {   
+        "id" : 7,
         "name" : "Vans",
         "img" : "https://stockx.imgix.net/Vans-Era-National-Geographic.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381",
     },
-    {
-        "name" : "Adidas",
-        "img" : "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Parley-Black-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214371",
-    },
-    {
+    {   
+        "id" : 8,
         "name" : "Jordan",
         "img" : "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-PS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618",
-    },
-    {
-        "name" : "Converse",
-        "img" : "https://stockx.imgix.net/Converse-G4-Black-Solar-Red-Fresh-Mint.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952669",
     },
 ]
 
