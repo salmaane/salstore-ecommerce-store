@@ -13,6 +13,7 @@ import Layout from './layouts/Layout.jsx';
 import NotFound from './components/NotFound';
 import  Home  from './pages/Home.jsx';
 import Products from './pages/Products.jsx';
+import ProductDetails from './pages/ProductDetails.jsx';
 
 
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Layout/>} >
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
+        <Route path="/products/:id" element={<ProductDetails/>} /> 
       </Route>
       <Route path="*" element={<NotFound/>} />
     </>
