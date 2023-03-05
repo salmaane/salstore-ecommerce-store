@@ -3,6 +3,7 @@ import { useState } from "react";
 import {useFetch} from "../../customHooks/useFetch";
 import { useFiltersContext } from "../../contexts/FiltersContext.jsx";
 //Components
+import CardSkeleton from '../CardSkeleton.jsx';
 import ProductCard from "../ProductCard.jsx"
 import {getToggleFilterQuery} from '../Filters/ToggleFilter';
 import { getCheckboxFilterQuery } from "../Filters/CheckboxFilter";
@@ -34,7 +35,7 @@ function ProductsColumn({brands, genders, colors, priceRange}) {
 
   const filters = brandQuery + genderQuery + colorQuery + priceQuery + sortQuery;
   const pagination= "?_page="+ page +"&_limit=21";
-  const {data: products, totalCount} = useFetch("http://localhost:3000/products/"+pagination+filters); 
+  const {data: products, totalCount, loading} = useFetch("http://localhost:3000/products/"+pagination+filters); 
   const totalPages = Math.ceil(totalCount/21);
 
   return (
@@ -51,12 +52,15 @@ function ProductsColumn({brands, genders, colors, priceRange}) {
           </div>
         }
         
-        {products.map( (product) => (
-          <ProductCard 
-            key={product.id}
-            item={product}
-          />
-        ) )}
+        { loading ? <CardSkeleton count={totalCount < 21 ? totalCount : 21} />
+          :
+          products.map( (product) => (
+            <ProductCard 
+              key={product.id}
+              item={product}
+            />
+          ))
+        }
 
         { totalCount == 0 ?
         <div className="no-results">

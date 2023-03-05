@@ -3,6 +3,7 @@ import ProductCard from '../ProductCard';
 import {Link} from "react-router-dom";
 import { useFetch } from '../../customHooks/useFetch';
 import {useFiltersContext} from '../../contexts/FiltersContext.jsx'
+import CardSkeleton from "../CardSkeleton";
 
 
 function ProductsSection({header, buttonText,sort}) {
@@ -14,9 +15,13 @@ function ProductsSection({header, buttonText,sort}) {
     <section className='products-section'>
       <h1>{header}</h1>
       <div className='products-wrapper'>
-        {sneakersData.map( item => (
-          <ProductCard item={item} key={item.id}/>
-        ))}
+        { loading ? 
+          <CardSkeleton count={8} /> 
+          :
+          sneakersData.map( item => (
+            <ProductCard item={item} key={item.id}/>
+          ))
+        }
       </div>
       <button className='shop-button'>
         <Link 

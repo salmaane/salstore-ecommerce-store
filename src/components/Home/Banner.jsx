@@ -1,10 +1,16 @@
-import '../../styles/banner.css';
-import {useRef,useEffect, useContext, useState} from 'react';
-import {Link} from 'react-router-dom';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import NavbarContext from '../../contexts/NavbarContext';
+// hooks
 import {useFetch} from '../../customHooks/useFetch.js';
+import {Link} from 'react-router-dom';
+import {useRef,useEffect, useContext, useState} from 'react';
+// styles
+import '../../styles/banner.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
+// components
+import { Carousel } from 'react-responsive-carousel';
+import NavbarContext from '../../contexts/NavbarContext';
+
 
  function Banner() {
 
@@ -29,18 +35,25 @@ import {useFetch} from '../../customHooks/useFetch.js';
   return (
     <div ref={bannerRef}>
       {
-        loading ? <h1 style={{fontSize:'5rem'}}>Im Loading...</h1> 
-        :
         <Carousel {...settings}>
-          {banners.map(slide => (
-                <section className='banner-container' key={slide.id}>
-                  <div className='title-wrapper'>
-                    <h1>{slide.title}</h1>
-                    <Link to="/" className='banner-button' >Shop Now</Link>
-                  </div>
-                  <img src={slide.productImage} alt="" className='product-image'/>
-                </section>
-          ))}
+          {loading ?
+           <SkeletonTheme baseColor="#202020" highlightColor='#333'>
+                <Skeleton style={{height:'100vh',borderRadius:'0  '}}/>
+            </SkeletonTheme> 
+          : 
+          banners.map(slide => (
+            <section className='banner'  key={slide.id}>
+              <div className='banner-container'>
+                <div className='title-wrapper'>
+                  <h1>{slide.title}</h1>
+                  <Link to="/" className='banner-button' >Shop Now</Link>
+                </div>
+                <img src={slide.productImage} alt="" className='product-image'/>
+              </div>
+              <img src={slide.bgImage} className="bg-image" />
+            </section>
+          ))
+          }
         </Carousel>
       }
     </div>
