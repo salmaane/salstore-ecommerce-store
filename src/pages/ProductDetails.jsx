@@ -1,21 +1,14 @@
-import { useParams } from "react-router-dom"
-
+import { useLocation } from "react-router-dom"
+import ImagesBox from "../components/productDetails/ImagesBox.jsx";
+import "../styles/productDetails.css";
 
 function ProductDetails() {
 
-    const {id} = useParams();
+  const {state} = useLocation();
 
   return (
-    <div>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
-            <h1>{id}</h1>
+    <div className="productDetails-container">
+      <ImagesBox image={state.media} />
     </div>
   )
 }

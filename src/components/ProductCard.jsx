@@ -9,6 +9,7 @@ function ProductCard({item}) {
           to={"/products/"+item.title}
           className='thumb'
           onClick={()=> window.scrollTo(0,0)}
+          state={item}
         >
           <img src={item.media.thumbUrl} alt="" />
         </Link>

@@ -1,0 +1,8 @@
+.productDetails-container {
+    height: 90vh;
+    margin-top: 4.5rem;
+    padding: 0 var(--side-padding);
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+}

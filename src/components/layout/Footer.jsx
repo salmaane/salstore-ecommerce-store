@@ -27,7 +27,7 @@ function Footer() {
         {/* This is just a temporary data it will be modified later */}
         <div className='categories'> 
           <div className='sneakers'>
-            <h4>SNEAKERS</h4>
+            <h4>BRANDS</h4>
             <p>Adidas</p>
             <p>Nike</p>
             <p>Air Jordan</p>
@@ -39,12 +39,10 @@ function Footer() {
             <p>Vans</p>
           </div>
           <div className='boots'>
-            <h4>BOOTS</h4>
-            <p>Timberland</p>
-            <p>Dr. Martens</p>
-            <p>Red Wing Shoes</p>
-            <p>Clarks</p>
-            <p>Caterpillar</p>
+            <h4>GENDERS</h4>
+            <p>Men</p>
+            <p>Women</p>
+            <p>Childs</p>
           </div>
           <div className='shoes'>
             <h4>SHOES</h4>
