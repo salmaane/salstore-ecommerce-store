@@ -46,7 +46,7 @@ import NavbarContext from '../../contexts/NavbarContext';
               <div className='banner-container'>
                 <div className='title-wrapper'>
                   <h1>{slide.title}</h1>
-                  <Link to="/" className='banner-button' >Shop Now</Link>
+                  <Link to={"/products/"+slide.title} className='banner-button' state={tempState}>Shop Now</Link>
                 </div>
                 <img src={slide.productImage} alt="" className='product-image'/>
               </div>
@@ -73,7 +73,22 @@ const settings = {
   // animationHandler: 'fade',
 }
 
-
+const tempState = {    
+    "id": "aa2244c0-c95a-420d-8642-526c5b97a858",
+    "brand": "Nike",
+    "colorway": "Bicycle Yellow/Opti Yellow-Fossil-White",
+    "gender": "women",
+    "media": {
+      "imageUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Bicycle-Yellow-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952675",
+      "smallImageUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Bicycle-Yellow-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952675",
+      "thumbUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Bicycle-Yellow-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952675"
+    },
+    "releaseDate": "2020-06-01 23:59:59",
+    "retailPrice": 100,
+    "styleId": "CZ0363-700",
+    "title": "Nike Blazer Mid 77 Bicycle Yellow (W)",
+    "year": 2020
+}
 
 
 export default Banner

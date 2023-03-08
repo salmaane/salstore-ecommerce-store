@@ -1,14 +1,15 @@
 .productDetails-container {
-    height: 90vh;
+    min-height: 90vh;
     margin-top: 4.5rem;
-    padding: 0 var(--side-padding);
+    padding: 5rem var(--side-padding);
+    padding-top: 5rem;
     background-color: #FBFBFB;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
 }
 .details-container {
-    width: 50%;
+    width: 40%;
     display: flex;
     gap: 2rem;
     flex-direction: column;
@@ -71,7 +72,7 @@
 }
 
 .count-container {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -95,4 +96,32 @@
 }
 .minus:hover, .plus:hover {
     background-color: #ddd;
+}
+
+.return-container {
+    width: 80%;
+    border: 0.5px solid #ccc;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.return-container .drop-button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #555;
+    margin: 1rem 0;
+}
+.return-text {
+    max-height: auto;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+.return-text.hidden {
+    max-height: 0;
+    margin: 0;
 }

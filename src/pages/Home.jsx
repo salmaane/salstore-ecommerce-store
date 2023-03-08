@@ -14,6 +14,7 @@ function Home() {
         header={"NEW RELEASES"}
         buttonText={"SHOP NEW RELEASES"}
         sort={"desc"}
+        query=""
       />
       <MiniBanner 
         imgSRC="assets/images/Nike-white.png"
@@ -26,6 +27,7 @@ function Home() {
         header={"OUR PRODUCTS"}
         buttonText={"SHOP PRODUCTS"}
         sort={"asc"} 
+        query=""
       />
       <BrandsCarousel />
       <LeafletMap />

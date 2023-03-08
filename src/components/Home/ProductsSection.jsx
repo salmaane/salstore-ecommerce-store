@@ -6,9 +6,9 @@ import {useFiltersContext} from '../../contexts/FiltersContext.jsx'
 import CardSkeleton from "../CardSkeleton";
 
 
-function ProductsSection({header, buttonText,sort}) {
+function ProductsSection({header, buttonText,sort,query}) {
 
-  const {data: sneakersData , loading} = useFetch("http://localhost:3000/products/?_limit=8&_sort=releaseDate&_order="+sort);
+  const {data: sneakersData , loading} = useFetch("http://localhost:3000/products/?_limit=8&_sort=releaseDate&_order="+sort+query);
 
   const {setSort} = useFiltersContext();
   return (
@@ -23,17 +23,20 @@ function ProductsSection({header, buttonText,sort}) {
           ))
         }
       </div>
-      <button className='shop-button'>
-        <Link 
-          to="products" 
-          onClick={()=> {
-            window.scrollTo(0,0);
-            setSort(sort);
-          }}
-        >
-          {buttonText}
-        </Link>
-      </button>
+        {
+          buttonText && 
+          <button className='shop-button'>
+          <Link 
+            to="products" 
+            onClick={()=> {
+              window.scrollTo(0,0);
+              setSort(sort);
+            }}
+          >
+            {buttonText}
+          </Link>
+        </button>
+        }
     </section>
   )
 }
