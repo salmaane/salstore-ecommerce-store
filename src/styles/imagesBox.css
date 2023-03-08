@@ -7,10 +7,10 @@
 }
 .large-image {
     width: 82%;
-    border: solid 1px #bbb;
+    border: solid 1px var(--primary);
     padding: 3rem 2rem;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 .thumbs-container {
     width: 82%;
@@ -22,7 +22,7 @@
     border: solid 1px #bbb;
     padding: 1.35rem 0.7rem;
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 3px;
     cursor: pointer;
 }
 .thumb-image:hover {
