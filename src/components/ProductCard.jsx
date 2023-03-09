@@ -1,8 +1,12 @@
 import "../styles/productCard.css";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import {Link} from 'react-router-dom';
+import { useShoppingCartContext } from "../contexts/ShoppingCartContext";
 
 function ProductCard({item}) {
+
+  const {incrementCart} = useShoppingCartContext();
+
   return (
     <div className='item-card'>
         <Link 
@@ -16,7 +20,7 @@ function ProductCard({item}) {
         <p className='brand'>{item.brand}</p>
         <h3 className='title'>{item.title}</h3>
         <h4 className='price'>${item.retailPrice || 140}</h4>
-        <button className="add-to-cart">
+        <button className="add-to-cart" onClick={()=> incrementCart(item.id)}>
           Add to Cart
           <ShoppingCartOutlinedIcon className="cart-icon"/>  
         </button>

@@ -2,6 +2,7 @@
     --navlinks-hover: #777;
     --primary-hover: #41a58d;
     --secondary-hover: #000;
+    /* --text-color: #000; */
 }
 .navbar {
     width: 100%;
@@ -85,6 +86,6 @@ nav > div {
     border: none;
     background: none;
 }
-.cart-icon {
+.cart-button .cart-icon {
     color: var(--text-color);
 }
