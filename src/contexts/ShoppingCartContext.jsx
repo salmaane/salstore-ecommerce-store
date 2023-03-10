@@ -26,6 +26,23 @@ export function ShoppingCartProvider({children}) {
             }
         });
     }
+    function decrementCart(id) {
+        setCartItems(currentCartItems => {
+            if(currentCartItems.find(item => item.id === id).quantity > 1) {
+                currentCartItems.map(item => {
+                    if(item.id === id) {
+                        return {...item, quantity: item.quantity - 1};
+                    }
+                    return item;
+                });
+            } else {
+                currentCartItems.filter(item => item.id !== id);
+            }
+        });
+    }
+    function removeFromCart(id) {
+        setCartItems(cartItems.filter(item => item.id !== id));
+    }
 
     return (
         <ShoppingCartContext.Provider 
@@ -33,6 +50,8 @@ export function ShoppingCartProvider({children}) {
                 cartItems,
                 getItemQuantity,
                 incrementCart,
+                decrementCart,
+                removeFromCart,
                 }}
         >
             {children}
