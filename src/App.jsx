@@ -14,6 +14,7 @@ import NotFound from './components/NotFound';
 import  Home  from './pages/Home.jsx';
 import Products from './pages/Products.jsx';
 import ProductDetails from './pages/ProductDetails.jsx';
+import CartPage from './pages/CartPage.jsx';
 
 
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
         <Route path="/products/:id" element={<ProductDetails/>} /> 
+        <Route path="/cart" element={<CartPage/>} />
       </Route>
       <Route path="*" element={<NotFound/>} />
     </>

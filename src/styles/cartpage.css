@@ -1,0 +1,33 @@
+.cartpage-container {
+    min-height: 80vh;
+    margin-top: 10rem;
+    padding: 1rem var(--side-padding);
+    display: flex; 
+}
+.orders-list {
+    height: fit-content;
+    border-collapse: collapse;
+}
+.orders-list tr {
+    border-bottom: 1px solid #ccc;
+    padding: .5rem 0;
+}
+.orders-list th {
+    padding-bottom: 1rem;
+}
+.orders-list td, .orders-list th {
+    padding-right: 4rem;
+}
+.order-thumb {
+    width: 6rem;
+}
+.order-title {
+    min-width: 22rem;
+}
+.order-price {
+    text-align: center;
+}
+td.order-subtotal {
+    padding: 0;
+    text-align: center; 
+}

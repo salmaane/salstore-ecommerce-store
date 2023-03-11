@@ -2,17 +2,20 @@ import SearchBar from './SearchBar';
 import "../../styles/navbar.css"
 import { useContext } from 'react';
 import {Link} from 'react-router-dom'
-
 // Contexts
 import NavbarContext from '../../contexts/NavbarContext';
+import {useShoppingCartContext} from "../../contexts/ShoppingCartContext";
 // Icons
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Badge } from '@mui/material';
 
 
 function Navbar() {
   const navbarRef = useContext(NavbarContext);
-  
+  const {cartQuantity} = useShoppingCartContext();
+  const quantity = cartQuantity();
+
   function scrollToTop(e) {
     if(e.target.tagName === 'A') {
       window.scrollTo(0,0);
@@ -35,7 +38,9 @@ function Navbar() {
           LOGIN/REGISTER
         </Link>
         <Link to="cart" className='cart-button'>
-          <ShoppingCartOutlinedIcon className="cart-icon" sx={{fontSize: '1.9rem'}}/>
+          <Badge badgeContent={quantity} color="warning" >
+            <ShoppingCartOutlinedIcon className="cart-icon" sx={{fontSize: '1.9rem'}}/>
+          </Badge>
         </Link>
     </nav>
   )

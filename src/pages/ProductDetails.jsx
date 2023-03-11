@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
+import { useShoppingCartContext } from "../contexts/ShoppingCartContext.jsx";
 // components
 import ImagesBox from "../components/productDetails/ImagesBox.jsx";
 import ProductsSection from "../components/home/ProductsSection";
@@ -11,8 +12,9 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 function ProductDetails() {
 
   const {state} = useLocation();
-  const [count,setCount] = useState(1);
+  const [hidden,setHidden] = useState(true);
 
+  const [count,setCount] = useState(1);
   function handleDecrement() {
     if(count == 1) return;
     setCount(prev => prev-1);
@@ -22,7 +24,7 @@ function ProductDetails() {
     setCount(prev => prev+1);
   }
 
-  const [hidden,setHidden] = useState(true);
+  const {incrementCart} = useShoppingCartContext();
 
   return (
     <>
@@ -45,12 +47,12 @@ function ProductDetails() {
           </div>
 
           <div className="add-to-cart-container">
-            <div className="count-container">
-              <span className="minus" onClick={handleDecrement} >-</span>
-              <span className="count">{count}</span>
-              <span className="plus" onClick={handleIncrement} >+</span>
-            </div>
-            <button className="add-button">
+          <div className="count-container">
+            <span className="minus" onClick={handleDecrement}>-</span>
+            <span className="count">{count}</span>
+            <span className="plus" onClick={handleIncrement} >+</span>
+          </div>
+            <button className="add-button" onClick={()=>incrementCart(state,count)}>
                 Add to Cart
               <ShoppingCartOutlinedIcon className="cart-icon"/>  
             </button>
