@@ -1,0 +1,33 @@
+.orders-list {
+    height: fit-content;
+    border-collapse: collapse;
+}
+.orders-list tr {
+    border-bottom: 1px solid #ccc;
+}
+.orders-list th {
+    padding-bottom: 1rem;
+}
+.orders-list td, .orders-list th {
+    padding: 0.4rem 2.7rem 0.4rem 0;
+}
+.order-thumb {
+    width: 6rem;
+}
+.order-title {
+    min-width: 20rem;
+}
+.order-title a p {
+    color: #000;
+}
+.order-title a p:hover {
+    color: #666;
+}
+td.order-subtotal, .order-price {
+    padding: 0;
+    text-align: center; 
+}
+td.close-icon {
+    text-align: center;
+    padding-right: 1rem;
+}

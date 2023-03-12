@@ -1,42 +1,13 @@
 .cartpage-container {
     min-height: 100vh;
     padding: 9rem var(--side-padding);
+    padding-bottom: 6.5rem;
     display: flex; 
-}
-.orders-list {
-    height: fit-content;
-    border-collapse: collapse;
-}
-.orders-list tr {
-    border-bottom: 1px solid #ccc;
-    padding: .5rem 0;
-}
-.orders-list th {
-    padding-bottom: 1rem;
-}
-.orders-list td, .orders-list th {
-    padding-right: 4rem;
-}
-.order-thumb {
-    width: 6rem;
-}
-.order-title {
-    min-width: 20rem;
-}
-.order-title a p {
-    color: #000;
-}
-.order-title a p:hover {
-    color: #666;
-}
-.order-price {
-    text-align: center;
-}
-td.order-subtotal {
-    padding: 0;
-    text-align: center; 
+    gap: 4rem; 
+    justify-content: space-between;
 }
 
+/* Empty cart styles */
 .empty-cart {
     width: 100%;
     display: flex;
@@ -67,5 +38,62 @@ td.order-subtotal {
     margin-top: 2rem;
 }
 .empty-cart button:hover {
+    background-color: #333;
+}
+
+/* Cart Totals Styles  */
+.cart-totals {
+    background-color: #fff;
+    box-shadow: 0px 0px 11px 0.5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 2rem 1.5rem;
+    border: 1px solid var(--primary);
+    max-width: 22rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1.45rem;
+    margin-top: 1.9rem;
+}
+.cart-totals > div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.7rem;
+    color: #444;
+    align-items: center;
+}
+
+.shipping-options {
+    font-size: 0.9rem;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: right;
+    align-items: flex-end;
+}
+.shipping-options button {
+    background-color: transparent;
+    border: none;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.cart-totals .total {
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.cart-totals > button {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+} 
+.cart-totals > button:hover {
     background-color: #333;
 }

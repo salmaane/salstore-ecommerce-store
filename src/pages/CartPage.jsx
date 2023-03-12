@@ -11,7 +11,10 @@ function CartPage() {
     getItemQuantity,
     incrementCart,
     decrementCart,
+    removeFromCart,
+    cartTotals,
   } = useShoppingCartContext();
+  const cartTotal = cartTotals();
 
   return (
     <div className="cartpage-container">
@@ -26,13 +29,31 @@ function CartPage() {
         </div>
         : <>
         <OrdersList 
-        cartItems={cartItems}
-        getItemQuantity={getItemQuantity}
-        incrementCart={incrementCart}
-        decrementCart={decrementCart}
+          cartItems={cartItems}
+          getItemQuantity={getItemQuantity}
+          incrementCart={incrementCart}
+          decrementCart={decrementCart}
+          removeFromCart={removeFromCart}
         />
         <div className="cart-totals">
-          
+          <h3>CART TOTALS</h3>
+          <div className="subtotal">
+            <p>Subtotal</p>
+            <p>${cartTotal}</p>
+          </div>
+          <div className="shipping-container">
+            <p>Shipping</p>
+            <div className="shipping-options">
+              <p>Free shipping</p>
+              <p>Shipping options will be updated during checkout.</p>
+              <button>Calculate shipping</button>
+            </div>
+          </div>
+          <div className="total">
+            <h3>Total</h3>
+            <h2>${cartTotal}</h2>
+          </div>
+          <button>PROCEED TO CHECKOUT</button>
         </div>
         </>
       }

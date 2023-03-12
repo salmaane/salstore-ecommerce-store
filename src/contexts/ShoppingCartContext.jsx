@@ -49,6 +49,11 @@ export function ShoppingCartProvider({children}) {
     function cartQuantity() {
         return cartItems.reduce((quantity,item) => quantity+item.quantity, 0);
     }
+    function cartTotals() {
+        return cartItems.reduce((total,item)=> (
+            total + item.quantity*item.retailPrice
+        ),0)
+    }
 
     return (
         <ShoppingCartContext.Provider 
@@ -59,6 +64,7 @@ export function ShoppingCartProvider({children}) {
                 decrementCart,
                 removeFromCart,
                 cartQuantity,
+                cartTotals,
                 }}
         >
             {children}
