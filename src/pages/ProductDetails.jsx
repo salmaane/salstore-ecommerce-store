@@ -29,7 +29,7 @@ function ProductDetails() {
   return (
     <>
       <div className="productDetails-container">
-        <ImagesBox image={state.media} />
+        <ImagesBox image={state.media} key={state.id}/>
         <div className="details-container" >
           <p className="brand">{state.brand}</p>
           <h1 className="title" >{state.title}</h1>
