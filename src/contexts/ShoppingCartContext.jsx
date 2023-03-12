@@ -16,12 +16,8 @@ export function ShoppingCartProvider({children}) {
         setCartItems(currentItems => {
             if(currentItems.find(item => item.id === product.id) == null) {
                 return [...currentItems,{
-                    id:product.id,
+                    ...product,
                     quantity: count,
-                    title:product.title,
-                    price:product.retailPrice,
-                    thumb:product.media.thumbUrl,
-                    brand:product.brand,
                 }];
             } else {
                 return currentItems.map(item => {

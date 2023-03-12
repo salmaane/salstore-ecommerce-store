@@ -1,7 +1,6 @@
 .cartpage-container {
-    min-height: 80vh;
-    margin-top: 10rem;
-    padding: 1rem var(--side-padding);
+    min-height: 100vh;
+    padding: 9rem var(--side-padding);
     display: flex; 
 }
 .orders-list {
@@ -22,7 +21,13 @@
     width: 6rem;
 }
 .order-title {
-    min-width: 22rem;
+    min-width: 20rem;
+}
+.order-title a p {
+    color: #000;
+}
+.order-title a p:hover {
+    color: #666;
 }
 .order-price {
     text-align: center;
@@ -30,4 +35,37 @@
 td.order-subtotal {
     padding: 0;
     text-align: center; 
+}
+
+.empty-cart {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.empty-cart h1 {
+    font-size: 3rem;
+}
+.empty-cart .icon {
+   color: var(--primary);
+    height: 40%;
+    width: 40%;
+    margin-bottom: 1rem;
+    opacity: 0.3;
+}
+.empty-cart button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.empty-cart button:hover {
+    background-color: #333;
 }

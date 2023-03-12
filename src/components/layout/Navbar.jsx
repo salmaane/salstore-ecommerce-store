@@ -37,7 +37,7 @@ function Navbar() {
           <Person2OutlinedIcon className="account-icon" />
           LOGIN/REGISTER
         </Link>
-        <Link to="cart" className='cart-button'>
+        <Link to="cart" className='cart-button' onClick={()=>window.scrollTo(0,0)}>
           <Badge badgeContent={quantity} color="warning" >
             <ShoppingCartOutlinedIcon className="cart-icon" sx={{fontSize: '1.9rem'}}/>
           </Badge>

@@ -1,6 +1,8 @@
 import "../styles/cartpage.css";
+import OrdersList from "../components/cartPage/OrdersList";
 import {useShoppingCartContext} from "../contexts/ShoppingCartContext";
-import ItemCount from "../components/productDetails/ItemCount";
+import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
+import {Link} from "react-router-dom";
 
 function CartPage() {
 
@@ -13,38 +15,27 @@ function CartPage() {
 
   return (
     <div className="cartpage-container">
-      <table className="orders-list">
-          <thead>
-            <tr>
-              <th colSpan={2}>Product</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th style={{paddingRight:'0'}}>Subtotal</th>
-            </tr>
-          </thead>
-          <tbody>
-            {cartItems.map(item => (
-              <tr className="order-container" key={item.id}>
-                <td><img src={item.thumb} className="order-thumb" /></td>
-                <td className="order-title">
-                  <p>{item.title}</p>
-                  <p style={{fontWeight:'bold',fontSize:'0.8rem',marginTop:'0.5rem'}}>{item.brand}</p>
-                </td>
-                <td className="order-price"><h4>${item.price}</h4></td>
-                <td>
-                  <ItemCount 
-                  count={getItemQuantity(item.id)}
-                  handleIncrement={incrementCart}
-                  handleDecrement={decrementCart}
-                  item={item}
-                  />
-                </td>
-                <td className="order-subtotal"><h4>${getItemQuantity(item.id)*item.price}</h4></td>
-              </tr> 
-            ))}
-          </tbody>
-      </table>
-      <div className="cart-totals"></div>
+      {cartItems.length === 0 ? 
+        <div className="empty-cart">
+          <ProductionQuantityLimitsIcon className="icon"/>
+          <h1>Your cart is currently empty</h1>
+          <p>Before proceed to checkout you must add some products to your shopping cart.</p>
+          <Link to="/" >
+            <button onClick={()=> window.scrollTo(0,0)}>RETURN TO SHOP</button>
+            </Link>
+        </div>
+        : <>
+        <OrdersList 
+        cartItems={cartItems}
+        getItemQuantity={getItemQuantity}
+        incrementCart={incrementCart}
+        decrementCart={decrementCart}
+        />
+        <div className="cart-totals">
+          
+        </div>
+        </>
+      }
     </div>
   )
 }
