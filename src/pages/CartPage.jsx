@@ -1,8 +1,10 @@
 import "../styles/cartpage.css";
-import OrdersList from "../components/cartPage/OrdersList";
+import {Link} from "react-router-dom";
 import {useShoppingCartContext} from "../contexts/ShoppingCartContext";
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import {Link} from "react-router-dom";
+import CartTotals from "../components/cartPage/CartTotals";
+import OrdersList from "../components/cartPage/OrdersList";
+
 
 function CartPage() {
 
@@ -35,26 +37,7 @@ function CartPage() {
           decrementCart={decrementCart}
           removeFromCart={removeFromCart}
         />
-        <div className="cart-totals">
-          <h3>CART TOTALS</h3>
-          <div className="subtotal">
-            <p>Subtotal</p>
-            <p>${cartTotal}</p>
-          </div>
-          <div className="shipping-container">
-            <p>Shipping</p>
-            <div className="shipping-options">
-              <p>Free shipping</p>
-              <p>Shipping options will be updated during checkout.</p>
-              <button>Calculate shipping</button>
-            </div>
-          </div>
-          <div className="total">
-            <h3>Total</h3>
-            <h2>${cartTotal}</h2>
-          </div>
-          <button>PROCEED TO CHECKOUT</button>
-        </div>
+        <CartTotals cartTotal={cartTotal}/>
         </>
       }
     </div>

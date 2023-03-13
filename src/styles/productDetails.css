@@ -116,10 +116,11 @@
     margin: 1rem 0;
 }
 .return-text {
-    max-height: auto;
+    max-height: 15rem;
     font-size: 0.8rem;
     line-height: 1rem;
     margin-bottom: 1rem;
+    transition: max-height .4s linear;
 }
 .return-text.hidden {
     max-height: 0;
