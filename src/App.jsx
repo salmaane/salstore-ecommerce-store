@@ -17,6 +17,7 @@ import ProductDetails from './pages/ProductDetails.jsx';
 import CartPage from './pages/CartPage.jsx';
 import AccountPage from './pages/AccountPage.jsx';
 import ForgotPass from './pages/ForgotPass.jsx';
+import ContactPage from "./pages/ContactPage";
 
 
 
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/account" element={<AccountPage/>} />
         <Route path="/account/resetpassword" element={<ForgotPass/>} />
+        <Route path="/contact" element={<ContactPage/>} />
       </Route>
       <Route path="*" element={<NotFound/>} />
     </>
