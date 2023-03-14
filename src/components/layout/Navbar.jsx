@@ -33,7 +33,11 @@ function Navbar() {
             </ul>
         </div>
         <SearchBar/>
-        <Link to="account" className='login-button'>
+        <Link 
+          to="account" 
+          className='login-button' 
+          onClick={()=>window.scrollTo(0,0)}
+        >
           <Person2OutlinedIcon className="account-icon" />
           LOGIN/REGISTER
         </Link>

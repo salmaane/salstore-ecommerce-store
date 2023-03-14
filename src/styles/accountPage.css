@@ -1,0 +1,95 @@
+.accountPage-container {
+    min-height: 100vh;
+    padding: 7.5rem 7%;
+    display: flex;
+    justify-content: center;
+}
+.login, .register {
+    border: 1px solid var(--primary);
+    box-shadow: 0px 0px 11px 0.5px rgba(0,0,0,0.1);
+    width: 30rem;
+    padding: 1.8rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    background-color: #fff;
+    height: fit-content;
+}
+.accountPage-container .title {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.accountPage-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.accountPage-container input {
+    font-size: 1rem;
+    padding: 8px 10px;
+    border:1px solid #ccc;
+}
+.accountPage-container input:focus {
+    outline: 1px solid black;
+}
+.accountPage-container label {
+    font-size: 0.83rem;
+    color: #555;
+}
+.accountPage-container a {
+    text-decoration: underline;
+    color: #888;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+}
+.accountPage-container a:hover {
+    color: #333;
+}
+
+.login button, .register button {
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+.submit-button {
+    color: #fff;
+    border: none;
+    background-color: #000;
+    margin-top: 0.8rem;
+}
+.submit-button:hover {
+    background-color: #333;
+}
+.new-p {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 0.8rem;
+    color: #555;
+}
+.switch-button {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.switch-button:hover {
+    border-color: #555;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    align-self: flex-start;
+    margin: 0.5rem 0.5rem 0 0;
+}
+input[type="checkbox"]:focus {
+    outline: none;
+}
+
+.subtitle {
+    margin-top: 0.4rem;
+    color: #888;
+    font-size: 0.73rem;
+}
