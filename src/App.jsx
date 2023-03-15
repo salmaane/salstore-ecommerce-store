@@ -35,7 +35,9 @@ const router = createBrowserRouter(
       </Route>
       <Route path="*" element={<NotFound/>} />
     </>
-  )
+  ), {
+    basename:'/salstore-ecommerce-store'
+  }
 );
 
 const App = () => {
