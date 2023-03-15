@@ -1,8 +1,8 @@
 import React, {useRef} from 'react';
 import { Outlet } from 'react-router-dom';
-import Navbar from '../components/layout/Navbar';
-import Footer from '../components/layout/Footer';
-import NavbarContext from '../contexts/NavbarContext';
+import Navbar from '../components/layout/Navbar.jsx';
+import Footer from '../components/layout/Footer.jsx';
+import NavbarContext from '../contexts/NavbarContext.jsx';
 
 function Layout() {
   const navbarRef = useRef(null); 

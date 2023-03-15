@@ -1,5 +1,5 @@
 import "../../styles/ordersList.css";
-import ItemCount from "../../components/productDetails/ItemCount";
+import ItemCount from "../../components/productDetails/ItemCount.jsx";
 import {Link} from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 

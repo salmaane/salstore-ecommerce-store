@@ -1,9 +1,9 @@
 import React from 'react';
-import Banner from '../components/home/Banner';
-import ProductsSection from '../components/home/ProductsSection';
-import BrandsCarousel from '../components/home/BrandsCarousel';
-import LeafletMap from '../components/LeafletAPI/LeafletMap';
-import MiniBanner from '../components/home/MiniBanner';
+import Banner from '../components/home/Banner.jsx';
+import ProductsSection from '../components/home/ProductsSection.jsx';
+import BrandsCarousel from '../components/home/BrandsCarousel.jsx';
+import LeafletMap from '../components/LeafletAPI/LeafletMap.jsx';
+import MiniBanner from '../components/home/MiniBanner.jsx';
 
 function Home() {  
   return (

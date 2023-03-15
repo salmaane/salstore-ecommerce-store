@@ -1,7 +1,7 @@
 import "../../styles/filterPanel.css";
-import CheckboxFilter from "../Filters/CheckboxFilter";
-import ToggleFilter from "../Filters/ToggleFilter";
-import SliderFilter from "../Filters/SliderFilter";
+import CheckboxFilter from "../Filters/CheckboxFilter.jsx";
+import ToggleFilter from "../Filters/ToggleFilter.jsx";
+import SliderFilter from "../Filters/SliderFilter.jsx";
 
 
 function Filterpanel({brand, gender, color, price}) {

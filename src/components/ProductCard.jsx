@@ -1,7 +1,7 @@
 import "../styles/productCard.css";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import {Link} from 'react-router-dom';
-import { useShoppingCartContext } from "../contexts/ShoppingCartContext";
+import { useShoppingCartContext } from "../contexts/ShoppingCartContext.jsx";
 
 function ProductCard({item}) {
 

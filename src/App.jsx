@@ -10,14 +10,14 @@ import {
 import Layout from './layouts/Layout.jsx';
 
 // Pages
-import NotFound from './components/NotFound';
+import NotFound from './components/NotFound.jsx';
 import  Home  from './pages/Home.jsx';
 import Products from './pages/Products.jsx';
 import ProductDetails from './pages/ProductDetails.jsx';
 import CartPage from './pages/CartPage.jsx';
 import AccountPage from './pages/AccountPage.jsx';
 import ForgotPass from './pages/ForgotPass.jsx';
-import ContactPage from "./pages/ContactPage";
+import ContactPage from "./pages/ContactPage.jsx";
 
 
 

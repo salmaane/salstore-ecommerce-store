@@ -1,10 +1,10 @@
-import SearchBar from './SearchBar';
+import SearchBar from './SearchBar.jsx';
 import "../../styles/navbar.css"
 import { useContext } from 'react';
 import {Link} from 'react-router-dom'
 // Contexts
-import NavbarContext from '../../contexts/NavbarContext';
-import {useShoppingCartContext} from "../../contexts/ShoppingCartContext";
+import NavbarContext from '../../contexts/NavbarContext.jsx';
+import {useShoppingCartContext} from "../../contexts/ShoppingCartContext.jsx";
 // Icons
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';

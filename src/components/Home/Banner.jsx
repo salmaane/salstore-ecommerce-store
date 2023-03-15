@@ -9,7 +9,7 @@ import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 // components
 import { Carousel } from 'react-responsive-carousel';
-import NavbarContext from '../../contexts/NavbarContext';
+import NavbarContext from '../../contexts/NavbarContext.jsx';
 
 
  function Banner() {

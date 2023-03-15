@@ -1,12 +1,12 @@
 // hooks
 import { useState } from "react";
-import {useFetch} from "../../customHooks/useFetch";
+import {useFetch} from "../../customHooks/useFetch.js";
 import { useFiltersContext } from "../../contexts/FiltersContext.jsx";
 //Components
 import CardSkeleton from '../CardSkeleton.jsx';
 import ProductCard from "../ProductCard.jsx"
-import {getToggleFilterQuery} from '../Filters/ToggleFilter';
-import { getCheckboxFilterQuery } from "../Filters/CheckboxFilter";
+import {getToggleFilterQuery} from '../Filters/ToggleFilter.jsx';
+import { getCheckboxFilterQuery } from "../Filters/CheckboxFilter.jsx";
 // icons
 import "../../styles/productColumn.css";
 import NavigateNextOutlinedIcon from '@mui/icons-material/NavigateNextOutlined';

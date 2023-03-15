@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useShoppingCartContext } from "../contexts/ShoppingCartContext.jsx";
 // components
 import ImagesBox from "../components/productDetails/ImagesBox.jsx";
-import ProductsSection from "../components/home/ProductsSection";
+import ProductsSection from "../components/home/ProductsSection.jsx";
 // styles
 import "../styles/productDetails.css";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined.js";

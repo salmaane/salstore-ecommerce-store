@@ -1,9 +1,9 @@
 import "../styles/cartpage.css";
 import {Link} from "react-router-dom";
-import {useShoppingCartContext} from "../contexts/ShoppingCartContext";
+import {useShoppingCartContext} from "../contexts/ShoppingCartContext.jsx";
+import CartTotals from "../components/cartPage/CartTotals.jsx";
+import OrdersList from "../components/cartPage/OrdersList.jsx";
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import CartTotals from "../components/cartPage/CartTotals";
-import OrdersList from "../components/cartPage/OrdersList";
 
 
 function CartPage() {

@@ -1,9 +1,9 @@
 import '../../styles/productsSection.css';
-import ProductCard from '../ProductCard';
+import ProductCard from '../ProductCard.jsx';
 import {Link} from "react-router-dom";
-import { useFetch } from '../../customHooks/useFetch';
+import { useFetch } from '../../customHooks/useFetch.js';
 import {useFiltersContext} from '../../contexts/FiltersContext.jsx'
-import CardSkeleton from "../CardSkeleton";
+import CardSkeleton from "../CardSkeleton.jsx";
 
 
 function ProductsSection({header, buttonText,sort,query}) {

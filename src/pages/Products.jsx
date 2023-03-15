@@ -1,7 +1,7 @@
 import "../styles/products.css";
-import FilterPanel from "../components/productsPage/FilterPanel";
-import ProductsColumn from "../components/productsPage/ProductsColumn";
-import { useFiltersContext } from "../contexts/FiltersContext";
+import FilterPanel from "../components/productsPage/FilterPanel.jsx";
+import ProductsColumn from "../components/productsPage/ProductsColumn.jsx";
+import { useFiltersContext } from "../contexts/FiltersContext.jsx";
 
 function Products() {
 
