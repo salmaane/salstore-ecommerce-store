@@ -2,5 +2,69 @@
     min-height: 100vh;
     padding: 7.5rem 7%;
     display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+.contact-container {
+    display: flex;
+    gap: 5rem;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+}
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.infos div {
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+.form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    border-left: 1px solid var(--primary);
+    padding-left: 3rem;
+}
+.form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.form input, #message {
+    font-size: 1rem;
+    padding: 8px 10px;
+    border:1px solid #ccc;
+}
+.form label {
+    font-size: 0.9rem;
+    color: #555;
+}
+.form input:focus , #message:focus {
+    outline: 1px solid black;
+}
+.form #message {
+    min-width: 100%;
+    max-width: 100%;
+    height: 8rem;
+}
+.form .submit-button {
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.form .submit-button:hover {
+    border-color: #555;
+    color: #555;
 }
