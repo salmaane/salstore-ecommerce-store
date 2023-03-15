@@ -4,11 +4,13 @@ import {Link} from "react-router-dom";
 import { useFetch } from '../../customHooks/useFetch.js';
 import {useFiltersContext} from '../../contexts/FiltersContext.jsx'
 import CardSkeleton from "../CardSkeleton.jsx";
+import { useFetchLinkContext } from '../../contexts/FetchLinkContext.jsx';
 
 
 function ProductsSection({header, buttonText,sort,query}) {
 
-  const {data: sneakersData , loading} = useFetch("http://localhost:3000/products/?_limit=8&_sort=releaseDate&_order="+sort+query);
+  const {productsLink} = useFetchLinkContext();
+  const {data: sneakersData , loading} = useFetch(productsLink+"/?_limit=8&_sort=releaseDate&_order="+sort+query);
 
   const {setSort} = useFiltersContext();
   return (

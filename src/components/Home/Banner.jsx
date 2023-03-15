@@ -2,6 +2,7 @@
 import {useFetch} from '../../customHooks/useFetch.js';
 import {Link} from 'react-router-dom';
 import {useRef,useEffect, useContext, useState} from 'react';
+import {useFetchLinkContext} from "../../contexts/FetchLinkContext.jsx";
 // styles
 import '../../styles/banner.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -30,7 +31,8 @@ import NavbarContext from '../../contexts/NavbarContext.jsx';
     observer.observe(bannerRef.current);
   });
 
-  const {data: banners, loading} = useFetch("http://localhost:3000/banners");
+  const {bannersLink} = useFetchLinkContext();
+  const {data: banners, loading} = useFetch(bannersLink);
 
   return (
     <div ref={bannerRef}>

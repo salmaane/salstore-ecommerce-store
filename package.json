@@ -1,6 +1,6 @@
 {
   "name": "salstore",
-  "homepage": "https://salmaane.github.io/salstore-ecommerce-store/",
+  "homepage": "https://salmaane.github.io/salstore-ecommerce-store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"gh-pages -d dist",
     "json-server": "json-server --watch ./src/data/db.json"
   },
   "dependencies": {

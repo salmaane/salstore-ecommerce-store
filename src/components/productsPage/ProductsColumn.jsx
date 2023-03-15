@@ -11,6 +11,7 @@ import { getCheckboxFilterQuery } from "../Filters/CheckboxFilter.jsx";
 import "../../styles/productColumn.css";
 import NavigateNextOutlinedIcon from '@mui/icons-material/NavigateNextOutlined';
 import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
+import { useFetchLinkContext } from "../../contexts/FetchLinkContext.jsx";
 
 function ProductsColumn({brands, genders, colors, priceRange}) {
 
@@ -25,6 +26,8 @@ function ProductsColumn({brands, genders, colors, priceRange}) {
     window.scrollTo(0,0);
   }
 
+  const {productsLink} = useFetchLinkContext();
+
   const {sort,setSort} = useFiltersContext();
 
   const brandQuery = getCheckboxFilterQuery(brands, "&brand_like=");
@@ -35,7 +38,7 @@ function ProductsColumn({brands, genders, colors, priceRange}) {
 
   const filters = brandQuery + genderQuery + colorQuery + priceQuery + sortQuery;
   const pagination= "?_page="+ page +"&_limit=21";
-  const {data: products, totalCount, loading} = useFetch("http://localhost:3000/products/"+pagination+filters); 
+  const {data: products, totalCount, loading} = useFetch(productsLink+"/"+pagination+filters); 
   const totalPages = Math.ceil(totalCount/21);
 
   return (
