@@ -9,8 +9,8 @@ export function useFetchLinkContext() {
 export function FetchLinkProvider({children}) {
   return (
     <FetchLinkContext.Provider value={{
-        productsLink: "http://localhost:3000/products",
-        bannersLink: "http://localhost:3000/banners",
+        productsLink: import.meta.env.VITE_PRODUCTS_FETCH_LINK,
+        bannersLink: import.meta.env.VITE_BANNERS_FETCH_LINK,
     }}>
         {children}
     </FetchLinkContext.Provider>
