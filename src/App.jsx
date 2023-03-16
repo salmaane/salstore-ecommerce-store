@@ -36,7 +36,7 @@ const router = createBrowserRouter(
       <Route path="*" element={<NotFound/>} />
     </>
   ), {
-    basename:'/salstore-ecommerce-store'
+    basename:'/salstore-ecommerce-store/'
   }
 );
 

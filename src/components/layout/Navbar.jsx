@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <nav className='navbar' ref={navbarRef}>
         <div>
-            <Link to="/"><img src="/assets/logo/logo2.png" alt="logo" className='logo'/></Link>
+            <Link to="/"><img src={import.meta.env.BASE_URL+"/assets/logo/logo2.png"} alt="logo" className='logo'/></Link>
             <ul className="nav-links" onClick={scrollToTop} >
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/products">Products</Link></li>

@@ -50,9 +50,9 @@ import NavbarContext from '../../contexts/NavbarContext.jsx';
                   <h1>{slide.title}</h1>
                   <Link to={"/products/"+slide.title} className='banner-button' state={tempState}>Shop Now</Link>
                 </div>
-                <img src={slide.productImage} alt="" className='product-image'/>
+                <img src={import.meta.env.BASE_URL+slide.productImage} alt="" className='product-image'/>
               </div>
-              <img src={slide.bgImage} className="bg-image" />
+              <img src={import.meta.env.BASE_URL+slide.bgImage} className="bg-image" />
             </section>
           ))
           }

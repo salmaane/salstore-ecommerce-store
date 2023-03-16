@@ -8,7 +8,7 @@ function Footer() {
       <DeliveryInfos/>
       <div className='footer-wrapper'>
         <div className='about-us'>
-          <img src="/assets/logo/logo.png"  className='logo2' alt="logo"/>
+          <img src={import.meta.env.BASE_URL+"/assets/logo/logo.png"}  className='logo2' alt="logo"/>
           <p className='description'>Salstore, where you'll find the latest
             and greatest in footwear. We offer a wide selection of top brands,
             with styles to fit any taste. Our easy-to-use website makes 
