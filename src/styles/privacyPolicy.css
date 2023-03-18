@@ -1,0 +1,14 @@
+.privacy-policy-container, .terms-use {
+    padding: 6rem var(--side-padding);
+    min-height: 100vh;
+}
+.privacy-policy-container h1, .terms-use h1 {
+    margin-bottom: 1.3rem;
+}
+.privacy-policy-container h3, .terms-use h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.privacy-policy-container p, .terms-use p {
+    width: 80%;
+}

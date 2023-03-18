@@ -18,7 +18,8 @@ import CartPage from './pages/CartPage.jsx';
 import AccountPage from './pages/AccountPage.jsx';
 import ForgotPass from './pages/ForgotPass.jsx';
 import ContactPage from "./pages/ContactPage.jsx";
-
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
+import TermsOfUse from './pages/TermsOfUse.jsx';
 
 
 const router = createBrowserRouter(
@@ -32,8 +33,10 @@ const router = createBrowserRouter(
         <Route path="/account" element={<AccountPage/>} />
         <Route path="/account/resetpassword" element={<ForgotPass/>} />
         <Route path="/contact" element={<ContactPage/>} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="terms-service" element={<TermsOfUse />} />
+        <Route path="*" element={<NotFound/>} />
       </Route>
-      <Route path="*" element={<NotFound/>} />
     </>
   ), {
     basename:'/salstore-ecommerce-store/'

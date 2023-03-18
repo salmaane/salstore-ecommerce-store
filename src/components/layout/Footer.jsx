@@ -65,8 +65,8 @@ function Footer() {
       <div className="sub-footer" >
         <div className='terms-privacy'>
           <Link to="contact" onClick={()=>window.scrollTo(0,0)}>Contact us</Link>
-          <Link to="" onClick={()=>window.scrollTo(0,0)}>Privacy Policy</Link>
-          <Link to="" onClick={()=>window.scrollTo(0,0)}>Terms of use</Link>
+          <Link to="privacy-policy" onClick={()=>window.scrollTo(0,0)}>Privacy Policy</Link>
+          <Link to="terms-service" onClick={()=>window.scrollTo(0,0)}>Terms of use</Link>
         </div>
         <p>© 2023 All Rights Reserved by Salstore</p>
       </div>
