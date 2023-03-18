@@ -2,7 +2,6 @@
 import {useFetch} from '../../customHooks/useFetch.js';
 import {Link} from 'react-router-dom';
 import {useRef,useEffect, useContext, useState} from 'react';
-import {useFetchLinkContext} from "../../contexts/FetchLinkContext.jsx";
 // styles
 import '../../styles/banner.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -31,8 +30,8 @@ import NavbarContext from '../../contexts/NavbarContext.jsx';
     observer.observe(bannerRef.current);
   });
 
-  const {bannersLink} = useFetchLinkContext();
-  const {data: banners, loading} = useFetch(bannersLink);
+  
+  const {data: banners, loading} = useFetch(import.meta.env.VITE_BANNERS_FETCH_LINK);
 
   return (
     <div ref={bannerRef}>
