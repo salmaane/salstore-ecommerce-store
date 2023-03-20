@@ -4,7 +4,7 @@ input[type="search"] {
     outline: none;
     border: 2px solid var(--primary);
     border-right: none;
-    width: inherit;
+    width: 100%;
     padding: 8px 10px;
     border-radius: 8px 0 0 8px;
     height: inherit;
@@ -14,12 +14,14 @@ input[type="search"] {
 input[type="search"]:focus, input[type="search"]:focus + .search-button {
     border-color: var(--secondary);
 } 
-.search-wrapper {
+form.search-wrapper {
+    display: flex;
     min-width: 194px;
     width: 90%;
     gap: 0;
     align-items: center;
     height: 2.3rem;
+    position: relative;
 }
 .search-button {
     border: 2px solid var(--primary);
@@ -30,6 +32,9 @@ input[type="search"]:focus, input[type="search"]:focus + .search-button {
     padding: 4px;
     border-radius: 0 8px 8px 0;
     cursor: pointer;
+}
+.search-button:hover {
+    background-color:#32947d;
 }
 .search-icon {
     font-size: 26px;

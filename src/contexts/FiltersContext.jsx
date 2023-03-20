@@ -10,13 +10,13 @@ export function useFiltersContext() {
 export function FiltersProvider({children}) {
     
     const [sort, setSort] = useState('asc');  
-
+    const [search,setSearch] = useState('');
     const [brands,setBrands] = useState(brandOptions);
     function handleBrandsCheck(id) {
       setBrands(brands.map( brand => (
         brand.id !== id ? brand : {...brand,checked: !brand.checked}
-      ) ));
-    }
+        ) ));
+      }
   
     const [genders,setGenders] = useState(genderOptions);
     function handleGendersCheck(id) {
@@ -29,7 +29,7 @@ export function FiltersProvider({children}) {
     function handleColorToggle(e,newColors) {
       setColors(newColors);
     }
-  
+
     const [priceRange,setPriceRange] = useState([0,300]);
     const timeoutId = useRef(null);
     function handlePriceRange(e,newRange) {
@@ -39,13 +39,26 @@ export function FiltersProvider({children}) {
       timeoutId.current = setTimeout(()=>setPriceRange(newRange),20);
     }
 
+    function clearFilters() {
+      setBrands(brands.map( brand => (
+          {...brand,checked: false}
+        ) ));
+      setGenders(genders.map( gender => (
+        {...gender,checked:false}
+      ) ));
+      setColors([]);
+      setPriceRange([0,300]);
+    }
+
     return (
         <FiltersContext.Provider value={{
             sort, setSort,
             brands, handleBrandsCheck,
             genders, handleGendersCheck,
             colors, handleColorToggle,
-            priceRange, handlePriceRange
+            priceRange, handlePriceRange,
+            search,setSearch,
+            clearFilters
         }} 
         >
           {children}

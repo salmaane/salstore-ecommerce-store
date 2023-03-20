@@ -10,16 +10,23 @@ function Products() {
     brands, handleBrandsCheck,
     genders, handleGendersCheck,
     colors, handleColorToggle,
-    priceRange, handlePriceRange 
+    priceRange, handlePriceRange ,
+    search,setSearch
   } = useFiltersContext();
 
   return (
     <div className="products-page-container">
       <div className="products-filter-header">
         <h2 className="products-filter-title" >
-          {sort === "desc" ? 'NEW RELEASES' : 'ALL SNEAKERS'}
+          {
+            search ? `SEARCH RESULTS FOR "${search.toUpperCase()}"`
+            : sort === "desc" ? 'NEW RELEASES' : 'ALL SNEAKERS'
+          }
           </h2>
-        <p className="filter-description"></p>
+        {search ? <h5 
+          className="filter-description"
+          onClick={()=> setSearch('')}
+        >Clear Search</h5> : null}
       </div>
       <section className="products-page-body">
         <FilterPanel
