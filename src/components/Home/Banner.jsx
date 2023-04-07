@@ -44,14 +44,13 @@ import NavbarContext from '../../contexts/NavbarContext.jsx';
           : 
           banners.map(slide => (
             <section className='banner'  key={slide.id}>
-              <div className='banner-container'>
+              <div className='banner-container' style={{backgroundImage:`url(${import.meta.env.BASE_URL+slide.bgImage})`}}>
                 <div className='title-wrapper'>
                   <h1>{slide.title}</h1>
                   <Link to={"/products/"+slide.title} className='banner-button' state={tempState}>Shop Now</Link>
                 </div>
                 <img src={import.meta.env.BASE_URL+slide.productImage} alt="" className='product-image'/>
               </div>
-              <img src={import.meta.env.BASE_URL+slide.bgImage} className="bg-image" />
             </section>
           ))
           }
@@ -66,7 +65,7 @@ const settings = {
   showThumbs: false,
   showStatus: false,
   infiniteLoop: true,
-  autoPlay:true,
+  autoPlay:false,
   interval:13e3,
   stopOnHover:true,
   swipeable: true,

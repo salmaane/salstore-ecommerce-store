@@ -1,0 +1,1624 @@
+{
+  "banners" : [
+    {
+      "id": 1,
+      "title": "Nike Blaze Mid 77 Bicycle Yellow",
+      "productImage" : "/assets/images/NikeShoes.png",
+      "bgImage" : "/assets/images/Bannerbackground.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Nike Blaze Mid 77 Bicycle Yellow",
+      "productImage" : "/assets/images/NikeShoes.png",
+      "bgImage" : "/assets/images/Bannerbackground.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Nike Blaze Mid 77 Bicycle Yellow",
+        "productImage" : "/assets/images/NikeShoes.png",
+        "bgImage" : "/assets/images/Bannerbackground.jpg"
+      }
+  ],
+  "products":
+  [
+    {
+      "id": "c116b14f-8f00-454b-915c-f3f51c7a297c",
+      "brand": "Nike",
+      "colorway": "White/Opti Yellow-Digital Pink-Blue Fury",
+      "gender": "child",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Kyrie-6-90s-GS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Kyrie-6-90s-GS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Kyrie-6-90s-GS.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011"
+      },
+      "releaseDate": "2020-06-12 23:59:59",
+      "retailPrice": 200.5,
+      "styleId": "BQ5599-101",
+      "title": "Nike Kyrie 6 90s (GS)",
+      "year": 2020
+    },
+    {
+      "id": "e7b5d463-64d8-4b4f-adca-d6b10a0a9ea8",
+      "brand": "Jordan",
+      "colorway": "White/Black-Aurora Green",
+      "gender": "preschool",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-PS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618",
+        "smallImageUrl": "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-PS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618",
+        "thumbUrl": "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-PS.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618"
+      },
+      "releaseDate": "2020-06-11 23:59:59",
+      "retailPrice": 80,
+      "styleId": "CU0449-100",
+      "title": "Jordan 1 Retro High Tie Dye (PS)",
+      "year": 2020
+    },
+    {
+      "id": "17c165c3-b1e7-4a10-aa5a-ca763c78cc53",
+      "brand": "Jordan",
+      "colorway": "White/Black-Aurora Green",
+      "gender": "toddler",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-TD.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618",
+        "smallImageUrl": "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-TD.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618",
+        "thumbUrl": "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Tie-Dye-TD.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072618"
+      },
+      "releaseDate": "2020-06-11 23:59:59",
+      "retailPrice": 60,
+      "styleId": "CU0450-100",
+      "title": "Jordan 1 Retro High Tie Dye (TD)",
+      "year": 2020
+    },
+    {
+      "id": "93197f94-54e3-4fd2-9727-c1c5f7e11a1f",
+      "brand": "Nike",
+      "colorway": "Dark Smoke Grey/Barely Volt-Volt",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Dark-Smoke-Grey-Volt-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952683",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Dark-Smoke-Grey-Volt-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952683",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Dark-Smoke-Grey-Volt-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952683"
+      },
+      "releaseDate": "2020-06-10 23:59:59",
+      "retailPrice": 120,
+      "styleId": "CZ0378-001",
+      "title": "Nike Air Max 90 Dark Smoke Grey Volt (W)",
+      "year": 2020
+    },
+    {
+      "id": "b98cb757-ad04-442f-9561-ba097b7ab81e",
+      "brand": "adidas",
+      "colorway": "Core Black/Core Black/Blue Spirit",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Parley-Black-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214371",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Parley-Black-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214371",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Parley-Black-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214371"
+      },
+      "releaseDate": "2020-06-08 23:59:59",
+      "retailPrice": 180,
+      "styleId": "EH1184",
+      "title": "adidas Ultra Boost DNA Parley Black (2020)",
+      "year": 2020
+    },
+    {
+      "id": "c9598308-be0b-4549-9e6b-736b2c424f44",
+      "brand": "adidas",
+      "colorway": "Cloud White/Cloud White/Blue Spirit",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-Uncaged-Parley-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1585905351",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-Uncaged-Parley-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1585905351",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-Uncaged-Parley-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1585905351"
+      },
+      "releaseDate": "2020-06-08 23:59:59",
+      "retailPrice": 180,
+      "styleId": "EH1173",
+      "title": "adidas Ultra Boost DNA Parley White (2020)",
+      "year": 2020
+    },
+    {
+      "id": "af2e6271-0f72-4409-b98b-82f418fc5a7e",
+      "brand": "adidas",
+      "colorway": "Dash Grey/Signal Coral/Blue Sport",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-4D-Run-1-Dash-Grey-Signal-Coral.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-4D-Run-1-Dash-Grey-Signal-Coral.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011",
+        "thumbUrl": "https://stockx.imgix.net/adidas-4D-Run-1-Dash-Grey-Signal-Coral.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073011"
+      },
+      "releaseDate": "2020-06-08 23:59:59",
+      "retailPrice": 200,
+      "styleId": "FW1230",
+      "title": "adidas 4D Run 1.0 Dash Grey Signal Coral",
+      "year": 2020
+    },
+    {
+      "id": "4f181050-2f23-4586-a9ef-16f089e5b148",
+      "brand": "adidas",
+      "colorway": "Core Black/Core Black/Core Black",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Triple-Black-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Triple-Black-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Triple-Black-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783"
+      },
+      "releaseDate": "2020-06-07",
+      "retailPrice": 130,
+      "styleId": "FV1277",
+      "title": "adidas Nite Jogger Triple Black (2020)",
+      "year": 2020
+    },
+    {
+      "id": "96ab1256-44cb-4282-82e3-c5fc0bbe42fc",
+      "brand": "adidas",
+      "colorway": "Cloud White/Cloud White/Cloud White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Triple-White-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238784",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Triple-White-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238784",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Triple-White-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238784"
+      },
+      "releaseDate": "2020-06-07",
+      "retailPrice": 130,
+      "styleId": "FV1267",
+      "title": "adidas Nite Jogger Triple White (2020)",
+      "year": 2020
+    },
+    {
+      "id": "6fd29cc5-4f9c-4cab-afb9-d8289f5780b7",
+      "brand": "Jordan",
+      "colorway": "Black/Gym Red-Light Smoke Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Air-Jordan-Delta-SP-Black.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045708",
+        "smallImageUrl": "https://stockx.imgix.net/Air-Jordan-Delta-SP-Black.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045708",
+        "thumbUrl": "https://stockx.imgix.net/Air-Jordan-Delta-SP-Black.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045708"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 150,
+      "styleId": "",
+      "title": "Jordan Delta SP Black",
+      "year": 2020
+    },
+    {
+      "id": "3d5fc6cd-dc25-470b-81fd-791d5dff69e4",
+      "brand": "Nike",
+      "colorway": "White/White-Black-White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Drew-League-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347861",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Drew-League-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347861",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Drew-League-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347861"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 100,
+      "styleId": "CZ4272-100",
+      "title": "Nike Air Force 1 Low Drew League (2020)",
+      "year": 2020
+    },
+    {
+      "id": "e545c830-5551-4f02-9b46-16526e5bc14e",
+      "brand": "adidas",
+      "colorway": "Core Black/Gold Metallic/Core Black",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Dame-6-Leather-Black-Gold.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420773",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Dame-6-Leather-Black-Gold.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420773",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Dame-6-Leather-Black-Gold.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420773"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 170,
+      "styleId": "FV8627",
+      "title": "adidas Dame 6 Leather Black Gold",
+      "year": 2020
+    },
+    {
+      "id": "17e470b0-0720-4756-8512-5e8a0b0ae14f",
+      "brand": "Nike",
+      "colorway": "Neutral Grey/Varsity Royal-Sail",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126620",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Blue.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126620",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126620"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 160,
+      "styleId": "",
+      "title": "Nike Air Force 1 Low Rub Away Blue",
+      "year": 2020
+    },
+    {
+      "id": "879b4294-4ca8-4f54-b229-7098682f40fd",
+      "brand": "Nike",
+      "colorway": "Neutral Grey/Varsity Red-Sail",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Black.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126619",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Black.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126619",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Black.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126619"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 160,
+      "styleId": "",
+      "title": "Nike Air Force 1 Low Rub-Away Black",
+      "year": 2020
+    },
+    {
+      "id": "b7346639-e655-4b61-b937-b60182eed5c0",
+      "brand": "Nike",
+      "colorway": "Black/Blush-Sail",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Red.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126621",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Red.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126621",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Rub-Away-Red.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126621"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 200,
+      "styleId": "",
+      "title": "Nike Air Force 1 Low Rub Away Red",
+      "year": 2020
+    },
+    {
+      "id": "05966f2d-2870-427c-879c-013cec2c6501",
+      "brand": "Nike",
+      "colorway": "Sail/Safety Orange-Black-Gum Medium Brown",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Orange.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Orange.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Orange.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 150,
+      "styleId": "CJ0611-100",
+      "title": "Nike Air Max 90 Rub Away Orange",
+      "year": 2020
+    },
+    {
+      "id": "b4366898-2075-4707-a965-2fdd57354e5a",
+      "brand": "Nike",
+      "colorway": "Sail/Varsity Royal-Midnight-Navy-Gum Medium Brown",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Blue.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161432"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 180,
+      "styleId": "",
+      "title": "Nike Air Max 90 Rub Away Blue",
+      "year": 2020
+    },
+    {
+      "id": "be59ab39-16e0-43c5-8f42-aa32948c805c",
+      "brand": "Nike",
+      "colorway": "Sail/University Red-Black-Gum Medium Brown",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Red.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Red.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-90-Home--Away-Red.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660"
+      },
+      "releaseDate": "2020-06-06 23:59:59",
+      "retailPrice": 130,
+      "styleId": "CJ0611-101",
+      "title": "Nike Air Max 90 Home & Away Red",
+      "year": 2020
+    },
+    {
+      "id": "dee2fd06-271b-4960-9c39-793e40c4898e",
+      "brand": "Nike",
+      "colorway": "Black/University Red-White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-KD-13-Bred.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072775",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-KD-13-Bred.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072775",
+        "thumbUrl": "https://stockx.imgix.net/Nike-KD-13-Bred.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591072775"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 150,
+      "styleId": "CI9948-002",
+      "title": "Nike KD 13 Bred",
+      "year": 2020
+    },
+    {
+      "id": "6bd1a597-eaaa-46d3-9032-73680ff045fd",
+      "brand": "adidas",
+      "colorway": "Core Black/Core Black/Solar Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Microbounce-T1-Core-Black-Solar-Red.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590036214",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Microbounce-T1-Core-Black-Solar-Red.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590036214",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Microbounce-T1-Core-Black-Solar-Red.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590036214"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 160,
+      "styleId": "EF4881",
+      "title": "adidas Microbounce T1 Core Black Solar Red",
+      "year": 2020
+    },
+    {
+      "id": "d98c1625-5ad6-414a-a081-9f6224e42be9",
+      "brand": "Nike",
+      "colorway": "White/University Red-Black",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-LeBron-17-NYC-Graffiti.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588046041",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-LeBron-17-NYC-Graffiti.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588046041",
+        "thumbUrl": "https://stockx.imgix.net/Nike-LeBron-17-NYC-Graffiti.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588046041"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 200,
+      "styleId": "CT6052-100",
+      "title": "Nike LeBron 17 Graffiti",
+      "year": 2020
+    },
+    {
+      "id": "53db49cb-bcc7-4dcc-82d6-7efc59bbfa93",
+      "brand": "Nike",
+      "colorway": "Multi-Color/Black-White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Be-True-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161526",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Be-True-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161526",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Be-True-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161526"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 150,
+      "styleId": "CZ4090-900",
+      "title": "Nike Air Max 2090 Be True (2020)",
+      "year": 2020
+    },
+    {
+      "id": "0595cf0f-5ad7-496f-a9a6-1392bf699906",
+      "brand": "Nike",
+      "colorway": "Black/Summit White-Menta-Orange Trans",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Menta.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638500",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Menta.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638500",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Menta.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638500"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 135,
+      "styleId": "CJ2033-010",
+      "title": "Nike Air Zoom Type Menta",
+      "year": 2020
+    },
+    {
+      "id": "496caf39-1960-41c5-a016-ccafe0204323",
+      "brand": "Nike",
+      "colorway": "Summit White/Ashen Slate-Summit White-Electric Green",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Summit-White.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638501",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Summit-White.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638501",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Zoom-Type-Summit-White.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638501"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 120,
+      "styleId": "CJ2033-100",
+      "title": "Nike Air Zoom Type Summit White",
+      "year": 2020
+    },
+    {
+      "id": "62481bfa-cc3d-43cc-b616-568ad60d7d51",
+      "brand": "adidas",
+      "colorway": "Tech Indigo/Bluebird/Off White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Frankfurt-Bluebird.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073008",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Frankfurt-Bluebird.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073008",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Frankfurt-Bluebird.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073008"
+      },
+      "releaseDate": "2020-06-05 23:59:59",
+      "retailPrice": 100,
+      "styleId": "EF5787",
+      "title": "adidas Frankfurt Bluebird",
+      "year": 2020
+    },
+    {
+      "id": "3c307b39-856c-4a36-95c7-96fda11a7c0c",
+      "brand": "Puma",
+      "colorway": "Puma White/Amazon Green-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 100,
+      "styleId": "374872-01",
+      "title": "Puma Ralph Sampson Lo Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "4a137709-3482-4c24-8772-4094481b7381",
+      "brand": "Puma",
+      "colorway": "Puma White/Amazon Green-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 110,
+      "styleId": "374881-01",
+      "title": "Puma Roma '68 Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "91c01b43-f1c5-497b-b7cd-56d2a4dcee8e",
+      "brand": "Puma",
+      "colorway": "Puma White/High Risk Red-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 110,
+      "styleId": "374874-01",
+      "title": "Puma Ralph Sampson Mid Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "9a1a8ee5-1328-450d-9463-58d092c8eb80",
+      "brand": "Puma",
+      "colorway": "White/Royal-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 120,
+      "styleId": "374875-01",
+      "title": "Puma Oslo City Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "b4967eed-e883-4972-acbe-8536c5ec9dc8",
+      "brand": "Puma",
+      "colorway": "White/Royal-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 115,
+      "styleId": "",
+      "title": "Puma Mirage Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "cd832e23-6b6d-48d9-98de-a2fbb4653f06",
+      "brand": "Puma",
+      "colorway": "Puma White/High Risk Red-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 120,
+      "styleId": "",
+      "title": "Puma Capri Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "e1b99ae5-8a00-4fde-a1ae-3c8de6d6402a",
+      "brand": "Puma",
+      "colorway": "Puma White/High Risk Red-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 100,
+      "styleId": "374877-01",
+      "title": "Puma Fast Rider Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "ffca91c8-5159-4365-a784-67f0e3b64604",
+      "brand": "Puma",
+      "colorway": "White/Royal-Vaporous Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-05",
+      "retailPrice": 100,
+      "styleId": "374878-01",
+      "title": "Puma Sky Lo Dassler Legacy Collection",
+      "year": 2020
+    },
+    {
+      "id": "15423daa-9283-4ea6-8596-61a0f3a19f30",
+      "brand": "Converse",
+      "colorway": "Photon Dust/Amethyst Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-G4-Photon-Dust.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952668",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-G4-Photon-Dust.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952668",
+        "thumbUrl": "https://stockx.imgix.net/Converse-G4-Photon-Dust.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952668"
+      },
+      "releaseDate": "2020-06-04 23:59:59",
+      "retailPrice": 120,
+      "styleId": "167939C",
+      "title": "Converse G4 Photon Dust",
+      "year": 2020
+    },
+    {
+      "id": "91668cbe-48de-4120-ba23-f5812adc2810",
+      "brand": "Converse",
+      "colorway": "White/Game Royal-Total Orange",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-All-Star-Pro-BB-Solstice.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952666",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-All-Star-Pro-BB-Solstice.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952666",
+        "thumbUrl": "https://stockx.imgix.net/Converse-All-Star-Pro-BB-Solstice.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952666"
+      },
+      "releaseDate": "2020-06-04 23:59:59",
+      "retailPrice": 140,
+      "styleId": "167936C",
+      "title": "Converse All-Star Pro BB Solstice",
+      "year": 2020
+    },
+    {
+      "id": "fac111ab-f3f1-48c3-9237-c81958f90cd8",
+      "brand": "Converse",
+      "colorway": "University Blue/White-White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-All-Star-Pro-BB-Low-Solstice.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952667",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-All-Star-Pro-BB-Low-Solstice.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952667",
+        "thumbUrl": "https://stockx.imgix.net/Converse-All-Star-Pro-BB-Low-Solstice.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952667"
+      },
+      "releaseDate": "2020-06-04 23:59:59",
+      "retailPrice": 130,
+      "styleId": "167937C",
+      "title": "Converse All-Star Pro BB Low Solstice",
+      "year": 2020
+    },
+    {
+      "id": "67c01d27-20c3-47df-ae5b-14e3de005f74",
+      "brand": "Converse",
+      "colorway": "Black/Solar Red-Fresh Mint",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-G4-Black-Solar-Red-Fresh-Mint.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952669",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-G4-Black-Solar-Red-Fresh-Mint.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952669",
+        "thumbUrl": "https://stockx.imgix.net/Converse-G4-Black-Solar-Red-Fresh-Mint.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952669"
+      },
+      "releaseDate": "2020-06-04 23:59:59",
+      "retailPrice": 120,
+      "styleId": "167938C",
+      "title": "Converse G4 Black Solar Red Fresh Mint",
+      "year": 2020
+    },
+    {
+      "id": "1c8a8c7d-357b-4ec3-a541-4df4a014d286",
+      "brand": "Nike",
+      "colorway": "Metallic Silver/Fuchsia Glow-Hyper Crimson-Racer Blue",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-Metallic-Silver-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-Metallic-Silver-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-Metallic-Silver-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783"
+      },
+      "releaseDate": "2020-06-03 23:59:59",
+      "retailPrice": 110,
+      "styleId": "CW6030-001",
+      "title": "Nike Air Force 1 Shadow Metallic Silver (W)",
+      "year": 2020
+    },
+    {
+      "id": "4c19b8de-09a4-4a20-ac64-2d7b2fff5052",
+      "brand": "Jordan",
+      "colorway": "White/French Blue-Flint Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Air-Jordan-Jumpman-Team-1-Flint.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783",
+        "smallImageUrl": "https://stockx.imgix.net/Air-Jordan-Jumpman-Team-1-Flint.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783",
+        "thumbUrl": "https://stockx.imgix.net/Air-Jordan-Jumpman-Team-1-Flint.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591238783"
+      },
+      "releaseDate": "2020-06-03",
+      "retailPrice": 140,
+      "styleId": "",
+      "title": "Jordan Jumpman Team 1 Flint",
+      "year": 2020
+    },
+    {
+      "id": "05dfef9f-0823-4f82-990a-fb3244331dde",
+      "brand": "Nike",
+      "colorway": "Black/Reflect Silver-Green",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Black.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Black.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Black.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 150,
+      "styleId": "CU9371-001",
+      "title": "Nike Air Max 2090 Neymar Jr. Black",
+      "year": 2020
+    },
+    {
+      "id": "f75fce4d-e425-4a19-9788-67ba437aa79d",
+      "brand": "Nike",
+      "colorway": "Light Orewood Brown/Blue Fury Laser-Light Orewood Brown",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Brown.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Brown.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-2090-Neymar-Jr-Brown.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556684"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 70,
+      "styleId": "CU9371-100",
+      "title": "Nike Air Max 2090 Neymar Jr. Brown",
+      "year": 2020
+    },
+    {
+      "id": "bc988830-7eab-4a09-b58d-9b62efc4f0d6",
+      "brand": "New Balance",
+      "colorway": "Incense/Team Teal",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-850-Incense-Team-Teal.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-850-Incense-Team-Teal.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-850-Incense-Team-Teal.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 100,
+      "styleId": "ML850SBE",
+      "title": "New Balance 850 Incense Team Teal",
+      "year": 2020
+    },
+    {
+      "id": "15038df0-38b7-4bee-8a8c-28566da8ab7a",
+      "brand": "Nike",
+      "colorway": "Black/Fossil-Cosmic Fuchsia-White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-Verona-Black-Cosmic-Fuchsia-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160659",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-Verona-Black-Cosmic-Fuchsia-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160659",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-Verona-Black-Cosmic-Fuchsia-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160659"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 130,
+      "styleId": "CI9842-001",
+      "title": "Nike Air Max Verona Black Cosmic Fuchsia (W)",
+      "year": 2020
+    },
+    {
+      "id": "90651f19-60e9-41e9-8e3b-7f4b3dd5d759",
+      "brand": "New Balance",
+      "colorway": "White/Team Teal",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-850-White-Team-Teal.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-850-White-Team-Teal.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-850-White-Team-Teal.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160665"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 100,
+      "styleId": "ML850SBB",
+      "title": "New Balance 850 White Team Teal",
+      "year": 2020
+    },
+    {
+      "id": "4f0b32bc-bda3-4bdc-86e3-d2367ddada5d",
+      "brand": "Nike",
+      "colorway": "Washed Coral/Guava Ice-White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-Koko-Washed-Coral-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-Koko-Washed-Coral-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-Koko-Washed-Coral-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 100,
+      "styleId": "CW9705-600",
+      "title": "Nike Air Max Koko Washed Coral (W)",
+      "year": 2020
+    },
+    {
+      "id": "6ce96afa-2349-4e9f-b3d4-1aa7a78c7a40",
+      "brand": "Nike",
+      "colorway": "White/Black-Metallic Silver-Aurora",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-VaporMax-Flyknit-3-White-Black-Aurora-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-VaporMax-Flyknit-3-White-Black-Aurora-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-VaporMax-Flyknit-3-White-Black-Aurora-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591160660"
+      },
+      "releaseDate": "2020-06-02 23:59:59",
+      "retailPrice": 200,
+      "styleId": "CT1274-100",
+      "title": "Nike Air VaporMax Flyknit 3 White Black Aurora (W)",
+      "year": 2020
+    },
+    {
+      "id": "121f2f6b-cdac-4760-ae88-952f27977afd",
+      "brand": "Converse",
+      "colorway": "Natural Ivory/Egret-Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-02",
+      "retailPrice": 100,
+      "styleId": "170539C",
+      "title": "Converse Chuck Taylor All-Star 70s Hi '88 All-Star Game Los Angeles Lakers",
+      "year": 2020
+    },
+    {
+      "id": "3d89fbd7-4f87-4950-8c1f-3cc71fb930ab",
+      "brand": "Converse",
+      "colorway": "Casino/White-Black",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-02",
+      "retailPrice": 100,
+      "styleId": "170541C",
+      "title": "Converse Chuck Taylor All-Star 70s Hi '88 All-Star Game Chicago Bulls",
+      "year": 2020
+    },
+    {
+      "id": "5ca3ba90-c57f-4b48-9fb4-9c44251330bf",
+      "brand": "Converse",
+      "colorway": "Natural Ivory/White-Black",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-02",
+      "retailPrice": 100,
+      "styleId": "170540C",
+      "title": "Converse Chuck Taylor All-Star 70s Hi '88 All-Star Game Boston Celtics",
+      "year": 2020
+    },
+    {
+      "id": "a218c112-39ab-467b-bacf-aaf93f44a01f",
+      "brand": "Converse",
+      "colorway": "Natural Ivory/White-Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "smallImageUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0",
+        "thumbUrl": "https://stockx-assets.imgix.net/media/New-Product-Placeholder-Default.jpg?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=0"
+      },
+      "releaseDate": "2020-06-02",
+      "retailPrice": 100,
+      "styleId": "170538C",
+      "title": "Converse Chuck Taylor All-Star 70s Hi '88 All-Star Game Seattle Supersonics",
+      "year": 2020
+    },
+    {
+      "id": "f513ca0c-8fd5-4979-a67e-f0051691773f",
+      "brand": "adidas",
+      "colorway": "Footwear White/Footwear White/Bright Cyan",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Carerra-Low-Pride-2020-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214355",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Carerra-Low-Pride-2020-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214355",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Carerra-Low-Pride-2020-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214355"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 80,
+      "styleId": "FY9019",
+      "title": "adidas Carerra Low Pride 2020 (W)",
+      "year": 2020
+    },
+    {
+      "id": "09552a41-acb7-42b1-9dae-e338b6e070df",
+      "brand": "adidas",
+      "colorway": "Blue/Footwear White/Yellow",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Stan-Smith-Pride-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Stan-Smith-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Stan-Smith-Pride-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 80,
+      "styleId": "FY9021",
+      "title": "adidas Stan Smith Pride (2020)",
+      "year": 2020
+    },
+    {
+      "id": "af29db3e-afd8-4687-b010-08d2b817d2e3",
+      "brand": "adidas",
+      "colorway": "Footwear White/Footwear White/Bright Cyan",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Pride-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Nite-Jogger-Pride-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214356"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "FY9023",
+      "title": "adidas Nite Jogger Pride (2020)",
+      "year": 2020
+    },
+    {
+      "id": "bdeadd77-59e4-4972-ac9b-9168eb5f4ac3",
+      "brand": "adidas",
+      "colorway": "Cloud White/Core Black/Gold Metallic",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-S-L-Pride-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214357",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-S-L-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214357",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-S-L-Pride-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588214357"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 180,
+      "styleId": "FY5347",
+      "title": "adidas Ultra Boost S&L Pride (2020)",
+      "year": 2020
+    },
+    {
+      "id": "70d4a58d-d8d2-4f43-a65f-63d6bf25c7a7",
+      "brand": "Nike",
+      "colorway": "White/Metallic Gold-University Red-Midnight Navy",
+      "gender": "toddler",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-TD.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-TD.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-TD.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 75,
+      "styleId": "DA4194-104",
+      "title": "Nike Air More Uptempo Olympic 2020 (TD)",
+      "year": 2020
+    },
+    {
+      "id": "a5a5b9ec-b363-40b6-84fb-19a6cead4970",
+      "brand": "Nike",
+      "colorway": "Industrial Blue/Habanero Red-Sail-Honey Comb",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Drop-Type-LX-Denim.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589594725",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Drop-Type-LX-Denim.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589594725",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Drop-Type-LX-Denim.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589594725"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 75,
+      "styleId": "CW6213-461",
+      "title": "Nike Drop Type LX Denim",
+      "year": 2020
+    },
+    {
+      "id": "e7e9e25c-9859-44af-91f0-bca57de2de4c",
+      "brand": "Nike",
+      "colorway": "White/Metallic Gold-University Red-Midnight Navy",
+      "gender": "preschool",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-PS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-PS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-PS.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 95,
+      "styleId": "DA4193-104",
+      "title": "Nike Air More Uptempo Olympic 2020 (PS)",
+      "year": 2020
+    },
+    {
+      "id": "25f4eacc-32e1-4b67-a664-9277f5f32355",
+      "brand": "adidas",
+      "colorway": "Crystal White/Yellow Tint/Purple Tint",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Torsion-Comp-White-Multi.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420779",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Torsion-Comp-White-Multi.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420779",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Torsion-Comp-White-Multi.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420779"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 100,
+      "styleId": "EF5974",
+      "title": "adidas Torsion Comp White Multi",
+      "year": 2020
+    },
+    {
+      "id": "59be387d-ceac-4a21-a3eb-541a84374202",
+      "brand": "adidas",
+      "colorway": "Core Black/Cloud White/Signal Cyan",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Nizza-Trefoil-Core-Black-Multi.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420776",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Nizza-Trefoil-Core-Black-Multi.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420776",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Nizza-Trefoil-Core-Black-Multi.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420776"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 65,
+      "styleId": "FW4540",
+      "title": "adidas Nizza Trefoil Core Black Multi",
+      "year": 2020
+    },
+    {
+      "id": "da677bde-282b-4a25-8e2f-5cd82c55b89a",
+      "brand": "adidas",
+      "colorway": "Cloud White/Core Black/Haze Coral",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Superstar-White-Black-Haze-Coral-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420778",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Superstar-White-Black-Haze-Coral-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420778",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Superstar-White-Black-Haze-Coral-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420778"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 90,
+      "styleId": "FW3553",
+      "title": "adidas Superstar White Black Haze Coral (W)",
+      "year": 2020
+    },
+    {
+      "id": "51e13b5e-92e8-4b93-96b0-6fb1be530fcf",
+      "brand": "Nike",
+      "colorway": "White/Sapphire-Fire Pink-Barely Volt",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-White-Sapphire-Barely-Volt-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420790",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-White-Sapphire-Barely-Volt-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420790",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-White-Sapphire-Barely-Volt-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420790"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 110,
+      "styleId": "CJ1641-100",
+      "title": "Nike Air Force 1 Shadow White Sapphire Barely Volt (W)",
+      "year": 2020
+    },
+    {
+      "id": "4bfb4f38-2951-4747-8f4e-cebd2ede00fd",
+      "brand": "Reebok",
+      "colorway": "White/Vivid Orange-Reebok Ice",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Orange.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053",
+        "smallImageUrl": "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Orange.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053",
+        "thumbUrl": "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Orange.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 120,
+      "styleId": "FX4999",
+      "title": "Reebok Question Low Patent Toe Orange",
+      "year": 2020
+    },
+    {
+      "id": "76869f78-2ee0-4d93-befe-30f2178a7706",
+      "brand": "Reebok",
+      "colorway": "White/Fluid Blue-Reebok Ice",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Carolina-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053",
+        "smallImageUrl": "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Carolina-Blue.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053",
+        "thumbUrl": "https://stockx.imgix.net/Reebok-Question-Low-Patent-Toe-Carolina-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1588045053"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 120,
+      "styleId": "FX5000",
+      "title": "Reebok Question Low Patent Toe Carolina Blue",
+      "year": 2020
+    },
+    {
+      "id": "8c793b07-8bec-4bd1-ae63-a1238af31f4f",
+      "brand": "New Balance",
+      "colorway": "White/Multi",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-327-Pride-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301201",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-327-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301201",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-327-Pride-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301201"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 110,
+      "styleId": "MS327PRD",
+      "title": "New Balance 327 Pride (2020)",
+      "year": 2020
+    },
+    {
+      "id": "24e1e9a4-4482-414d-a25a-cb3cb172b3ad",
+      "brand": "New Balance",
+      "colorway": "Rainbow",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-Fuel-Cell-Echo-Lucent-Pride-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301202",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-Fuel-Cell-Echo-Lucent-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301202",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-Fuel-Cell-Echo-Lucent-Pride-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301202"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 125,
+      "styleId": "MFCELPR",
+      "title": "New Balance Fuel Cell Echo Lucent Pride (2020)",
+      "year": 2020
+    },
+    {
+      "id": "432ef949-6c8b-4810-9338-c623d8a04c8e",
+      "brand": "Nike",
+      "colorway": "White/Metallic Gold-University Red-Midnight Navy",
+      "gender": "child",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-GS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-GS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-More-Uptempo-Olympic-2020-GS.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591161673"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "415082-104",
+      "title": "Nike Air More Uptempo Olympic 2020 (GS)",
+      "year": 2020
+    },
+    {
+      "id": "dc78606f-8c26-4cce-bea5-18aa07bfdc39",
+      "brand": "New Balance",
+      "colorway": "Navy/White-Sky Blue",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-327-Navy-White-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589594716",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-327-Navy-White-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589594716",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-327-Navy-White-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589594716"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 100,
+      "styleId": "WS327CPB",
+      "title": "New Balance 327 Navy White (W)",
+      "year": 2020
+    },
+    {
+      "id": "fc0b6709-49ed-4008-89e5-c77c601cf926",
+      "brand": "New Balance",
+      "colorway": "Rainbow",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-Fuel-Cell-Echo-Lucent-Pride-2020-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301202",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-Fuel-Cell-Echo-Lucent-Pride-2020-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301202",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-Fuel-Cell-Echo-Lucent-Pride-2020-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589301202"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 125,
+      "styleId": "WFCELPR",
+      "title": "New Balance Fuel Cell Echo Lucent Pride 2020 (W)",
+      "year": 2020
+    },
+    {
+      "id": "164f54af-1010-4ae5-b437-2a9ffe1c7b35",
+      "brand": "adidas",
+      "colorway": "Cloud White/Core Black/Shock Purple",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Superstar-White-Black-Shock-Purple-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420778",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Superstar-White-Black-Shock-Purple-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420778",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Superstar-White-Black-Shock-Purple-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420778"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 90,
+      "styleId": "FW3554",
+      "title": "adidas Superstar White Black Shock Purple (W)",
+      "year": 2020
+    },
+    {
+      "id": "5fe9e7a7-49ad-4fbb-be6b-f91ce98a0ab6",
+      "brand": "adidas",
+      "colorway": "Sky Tint/Cloud White/Signal Cyan",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Nizza-Trefoil-Sky-Tint-Multi.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420777",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Nizza-Trefoil-Sky-Tint-Multi.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420777",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Nizza-Trefoil-Sky-Tint-Multi.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589420777"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 65,
+      "styleId": "FW4539",
+      "title": "adidas Nizza Trefoil Sky Tint Multi",
+      "year": 2020
+    },
+    {
+      "id": "ceae177f-dba9-41e7-8d1d-68c5584e834a",
+      "brand": "adidas",
+      "colorway": "Cloud White/Gold Metallic/Solar Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Harden-Vol-4-Pride-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347852",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Harden-Vol-4-Pride-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347852",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Harden-Vol-4-Pride-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589347852"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "FX4797",
+      "title": "adidas Harden Vol. 4 Pride (2020)",
+      "year": 2020
+    },
+    {
+      "id": "5f6167f9-6c26-48d6-aeb7-d5e0a4fca770",
+      "brand": "adidas",
+      "colorway": "Royal Blue/Cloud White/Cloud White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-NMD-R1-Royal-Blue-Cloud-White.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853265",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-NMD-R1-Royal-Blue-Cloud-White.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853265",
+        "thumbUrl": "https://stockx.imgix.net/adidas-NMD-R1-Royal-Blue-Cloud-White.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853265"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "FY9383",
+      "title": "adidas NMD R1 Royal Blue Cloud White",
+      "year": 2020
+    },
+    {
+      "id": "ab92eb6a-8ecc-4ade-b277-73cc9fedcc38",
+      "brand": "adidas",
+      "colorway": "Core Black/Active Gold/Cloud White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-NMD-R1-Core-Black-Active-Gold.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853266",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-NMD-R1-Core-Black-Active-Gold.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853266",
+        "thumbUrl": "https://stockx.imgix.net/adidas-NMD-R1-Core-Black-Active-Gold.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853266"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "FY9382",
+      "title": "adidas NMD R1 Core Black Active Gold",
+      "year": 2020
+    },
+    {
+      "id": "07078386-1ed1-4641-819a-d217c2d80466",
+      "brand": "adidas",
+      "colorway": "Core Black/Off White/Gold Metallic",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Superstar-Bold-Leopard-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853267",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Superstar-Bold-Leopard-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853267",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Superstar-Bold-Leopard-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853267"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 110,
+      "styleId": "FV3463",
+      "title": "adidas Superstar Bold Leopard (W)",
+      "year": 2020
+    },
+    {
+      "id": "4745bf3e-a268-49f9-9f7a-0262ea3e5c57",
+      "brand": "adidas",
+      "colorway": "Cloud White/Gold Metallic/Core Black",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Superstar-White-Leopard-Stripes-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853267",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Superstar-White-Leopard-Stripes-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853267",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Superstar-White-Leopard-Stripes-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853267"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 90,
+      "styleId": "FV3452",
+      "title": "adidas Superstar White Leopard Stripes (W)",
+      "year": 2020
+    },
+    {
+      "id": "73770fbd-39c0-43bf-afc6-f3c98be3946b",
+      "brand": "adidas",
+      "colorway": "Cloud White/Core Black/Gold Metallic",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Superstar-Leopard-White-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853268",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Superstar-Leopard-White-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853268",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Superstar-Leopard-White-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589853268"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 90,
+      "styleId": "FV3451",
+      "title": "adidas Superstar Leopard White (W)",
+      "year": 2020
+    },
+    {
+      "id": "333d87df-6a38-4823-be3c-2b3a25871fdd",
+      "brand": "Nike",
+      "colorway": "White/Racer Blue-Sail-University Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Sky-Force-3-4-Snakeskin.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952685",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Sky-Force-3-4-Snakeskin.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952685",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Sky-Force-3-4-Snakeskin.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952685"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 110,
+      "styleId": "CW7074-100",
+      "title": "Nike Sky Force 3/4 Snakeskin",
+      "year": 2020
+    },
+    {
+      "id": "aa2244c0-c95a-420d-8642-526c5b97a858",
+      "brand": "Nike",
+      "colorway": "Bicycle Yellow/Opti Yellow-Fossil-White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Bicycle-Yellow-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952675",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Bicycle-Yellow-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952675",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Bicycle-Yellow-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952675"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 100,
+      "styleId": "CZ0363-700",
+      "title": "Nike Blazer Mid 77 Bicycle Yellow (W)",
+      "year": 2020
+    },
+    {
+      "id": "dea658b8-301a-433c-88ce-3cf31cb06993",
+      "brand": "Nike",
+      "colorway": "Summit White/Washed Coral-Summit White-Pink Quartz",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-White-Coral-Pink-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952677",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-White-Coral-Pink-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952677",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Shadow-White-Coral-Pink-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1589952677"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 110,
+      "styleId": "CJ1641-101",
+      "title": "Nike Air Force 1 Shadow White Coral Pink (W)",
+      "year": 2020
+    },
+    {
+      "id": "a422bfd4-f6df-4c7f-bbf1-a049777ffa45",
+      "brand": "Nike",
+      "colorway": "White/Racer Blue-Sail-University Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Red-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590036211",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Red-Blue.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590036211",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Blazer-Mid-77-Red-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590036211"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 120,
+      "styleId": "CW7073-100",
+      "title": "Nike Blazer Mid 77 Red & Blue",
+      "year": 2020
+    },
+    {
+      "id": "a7a92b96-1022-44ad-a6e3-5ff577e8ebd8",
+      "brand": "Jordan",
+      "colorway": "White/White-White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Air-Jordan-1-Mid-Triple-White-2-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126614",
+        "smallImageUrl": "https://stockx.imgix.net/Air-Jordan-1-Mid-Triple-White-2-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126614",
+        "thumbUrl": "https://stockx.imgix.net/Air-Jordan-1-Mid-Triple-White-2-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590126614"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 115,
+      "styleId": "554724-130",
+      "title": "Jordan 1 Mid Triple White 2.0 (2020)",
+      "year": 2020
+    },
+    {
+      "id": "848ed5f9-8ffe-46bf-8d68-333d5dd54108",
+      "brand": "Nike",
+      "colorway": "White/University Gold-University Blue-Light Smoke Grey",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-React-White-Light-Smoke-Grey.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590206304",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-React-White-Light-Smoke-Grey.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590206304",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-React-White-Light-Smoke-Grey.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590206304"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 120,
+      "styleId": "CT1020-100",
+      "title": "Nike Air Force 1 Low React White Light Smoke Grey",
+      "year": 2020
+    },
+    {
+      "id": "cfebaaac-5689-46cf-9c6e-4a2158cf07f1",
+      "brand": "Vans",
+      "colorway": "Black/White-Yellow",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Vans-Slip-On-National-Geographic.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556382",
+        "smallImageUrl": "https://stockx.imgix.net/Vans-Slip-On-National-Geographic.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556382",
+        "thumbUrl": "https://stockx.imgix.net/Vans-Slip-On-National-Geographic.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556382"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 110,
+      "styleId": "VN0A4U38WT3",
+      "title": "Vans Slip-On National Geographic",
+      "year": 2020
+    },
+    {
+      "id": "f85c2d0a-49cb-48c6-aaf0-89d1697bd5f4",
+      "brand": "Vans",
+      "colorway": "Multi/White-Yellow",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Vans-Era-National-Geographic.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381",
+        "smallImageUrl": "https://stockx.imgix.net/Vans-Era-National-Geographic.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381",
+        "thumbUrl": "https://stockx.imgix.net/Vans-Era-National-Geographic.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 65,
+      "styleId": "VN0A4U39WJZ",
+      "title": "Vans Era National Geographic",
+      "year": 2020
+    },
+    {
+      "id": "0b9e33e7-2e92-4330-b50a-3bf6327b4376",
+      "brand": "Vans",
+      "colorway": "Black/White-Yellow",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Vans-Sk8-Hi-National-Geographic.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380",
+        "smallImageUrl": "https://stockx.imgix.net/Vans-Sk8-Hi-National-Geographic.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380",
+        "thumbUrl": "https://stockx.imgix.net/Vans-Sk8-Hi-National-Geographic.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 75,
+      "styleId": "VN0A3TKPXHP",
+      "title": "Vans Sk8-Hi National Geographic",
+      "year": 2020
+    },
+    {
+      "id": "c285290d-2b18-4a40-af82-4c161867e848",
+      "brand": "Nike",
+      "colorway": "True White/True White-Obsidian-Comet Red",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Retro-Puerto-Rico-2020.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556363",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Retro-Puerto-Rico-2020.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556363",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Force-1-Low-Retro-Puerto-Rico-2020.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556363"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 140,
+      "styleId": "CJ1386-100",
+      "title": "Nike Air Force 1 Low Retro Puerto Rico (2020)",
+      "year": 2020
+    },
+    {
+      "id": "abdd7c07-669b-4847-9a7d-f129c0688815",
+      "brand": "Vans",
+      "colorway": "Black/Yellow",
+      "gender": "child",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Vans-Old-Skool-National-Geographic-GS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380",
+        "smallImageUrl": "https://stockx.imgix.net/Vans-Old-Skool-National-Geographic-GS.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380",
+        "thumbUrl": "https://stockx.imgix.net/Vans-Old-Skool-National-Geographic-GS.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556380"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 135,
+      "styleId": "VN0A4U3BWK6",
+      "title": "Vans Old Skool National Geographic (GS)",
+      "year": 2020
+    },
+    {
+      "id": "ae531c37-71ae-4e41-9346-3fd2b4bb6713",
+      "brand": "Vans",
+      "colorway": "Multi/Yellow-White",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Vans-Authentic-National-Geographic.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381",
+        "smallImageUrl": "https://stockx.imgix.net/Vans-Authentic-National-Geographic.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381",
+        "thumbUrl": "https://stockx.imgix.net/Vans-Authentic-National-Geographic.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590556381"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 140,
+      "styleId": "VN0A2Z5I002",
+      "title": "Vans Authentic National Geographic",
+      "year": 2020
+    },
+    {
+      "id": "253684d8-d78b-4e91-ae96-276aaa00e2fa",
+      "brand": "Nike",
+      "colorway": "Wolf Grey/Volt-Black",
+      "gender": "toddler",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Ky-Breezy-Volt-TD.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638496",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Ky-Breezy-Volt-TD.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638496",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Ky-Breezy-Volt-TD.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638496"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 55,
+      "styleId": "CJ4100-001",
+      "title": "Nike Ky-Breezy Volt (TD)",
+      "year": 2020
+    },
+    {
+      "id": "e19c004c-70cd-48c7-adae-52782d2ca71f",
+      "brand": "Nike",
+      "colorway": "Persian Violet/Aurora-Flash Crimson",
+      "gender": "toddler",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Ky-Breezy-Aurora-TD.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638497",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Ky-Breezy-Aurora-TD.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638497",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Ky-Breezy-Aurora-TD.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638497"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 55,
+      "styleId": "CJ4100-500",
+      "title": "Nike Ky-Breezy Aurora (TD)",
+      "year": 2020
+    },
+    {
+      "id": "3324390c-5b98-4013-ac34-fa9736a6fd7e",
+      "brand": "New Balance",
+      "colorway": "Bali Blue",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Bali-Blue.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800218",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Bali-Blue.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800218",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Bali-Blue.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800218"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "SDL900PB",
+      "title": "New Balance 900 Strap Bali Blue",
+      "year": 2020
+    },
+    {
+      "id": "b4f24b73-2efb-4230-9926-b6b99170b033",
+      "brand": "New Balance",
+      "colorway": "Black/Silver",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Black-Silver.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800214",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Black-Silver.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800214",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Black-Silver.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800214"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "SDL900AK",
+      "title": "New Balance 900 Strap Black Silver",
+      "year": 2020
+    },
+    {
+      "id": "f0efe085-e7e5-450a-961b-4189ef9d4bbc",
+      "brand": "New Balance",
+      "colorway": "Black/Moon",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Black-Moon.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800211",
+        "smallImageUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Black-Moon.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800211",
+        "thumbUrl": "https://stockx.imgix.net/New-Balance-900-Strap-Black-Moon.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590800211"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "SDL900BM",
+      "title": "New Balance 900 Strap Black Moon",
+      "year": 2020
+    },
+    {
+      "id": "9c643cce-93d4-4895-a76b-8113764fa1b0",
+      "brand": "Nike",
+      "colorway": "Sail/New Green-Forest Green",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Nike-Air-Max-95-Era-Safari.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638497",
+        "smallImageUrl": "https://stockx.imgix.net/Nike-Air-Max-95-Era-Safari.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638497",
+        "thumbUrl": "https://stockx.imgix.net/Nike-Air-Max-95-Era-Safari.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1590638497"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 180,
+      "styleId": "CZ9723-100",
+      "title": "Nike Air Max 95 Era Safari",
+      "year": 2020
+    },
+    {
+      "id": "5630bbf9-7c3d-424a-964f-2eeb01c00f48",
+      "brand": "adidas",
+      "colorway": "Core Black/Cloud White/Core Black",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-NMD-R1-Gradient-Monochrome-Black-White.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073016",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-NMD-R1-Gradient-Monochrome-Black-White.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073016",
+        "thumbUrl": "https://stockx.imgix.net/adidas-NMD-R1-Gradient-Monochrome-Black-White.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1591073016"
+      },
+      "releaseDate": "2020-06-01 23:59:59",
+      "retailPrice": 130,
+      "styleId": "FV3649",
+      "title": "adidas NMD R1 Gradient Monochrome Black White",
+      "year": 2020
+    },
+    {
+      "id": "654a49f7-3607-49c4-a51f-0219f107f961",
+      "brand": "adidas",
+      "colorway": "Core Black/Cloud White/Gold Metallic",
+      "gender": "men",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Superstar-Black-White.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1585123633",
+        "smallImageUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Superstar-Black-White.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1585123633",
+        "thumbUrl": "https://stockx.imgix.net/adidas-Ultra-Boost-DNA-Superstar-Black-White.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1585123633"
+      },
+      "releaseDate": "2020-04-01 23:59:59",
+      "retailPrice": 200,
+      "styleId": "EG2043",
+      "title": "adidas Ultra Boost DNA Superstar Black White",
+      "year": 2020
+    },
+    {
+      "id": "f01d09b3-f9bf-4426-af72-4c790f6fadba",
+      "brand": "Converse",
+      "colorway": "Black/White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Black-White-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416714",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Black-White-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416714",
+        "thumbUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Black-White-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416714"
+      },
+      "releaseDate": "2020-04-01 23:59:59",
+      "retailPrice": 150,
+      "styleId": "",
+      "title": "Converse Chuck Taylor All-Star Ox Addict Black White (W)",
+      "year": 2020
+    },
+    {
+      "id": "4a50ed23-5219-4af2-a5d9-2d43239bbf0f",
+      "brand": "Converse",
+      "colorway": "Black/White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-One-Star-Sandal-Addict-Black-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416717",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-One-Star-Sandal-Addict-Black-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416717",
+        "thumbUrl": "https://stockx.imgix.net/Converse-One-Star-Sandal-Addict-Black-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416717"
+      },
+      "releaseDate": "2020-04-01 23:59:59",
+      "retailPrice": 140,
+      "styleId": "",
+      "title": "Converse One Star Sandal Addict Black (W)",
+      "year": 2020
+    },
+    {
+      "id": "1a7cdc0c-8aa9-409f-9d75-e3092f67bb6b",
+      "brand": "Converse",
+      "colorway": "Lilac/White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Lilac-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416715",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Lilac-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416715",
+        "thumbUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Lilac-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416715"
+      },
+      "releaseDate": "2020-04-01 23:59:59",
+      "retailPrice": 150,
+      "styleId": "",
+      "title": "Converse Chuck Taylor All-Star Ox Addict Lilac (W)",
+      "year": 2020
+    },
+    {
+      "id": "4199afb7-1b45-4c40-b846-039d8a248de5",
+      "brand": "Converse",
+      "colorway": "Mint/White",
+      "gender": "women",
+      "media": {
+        "imageUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Mint-W.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416716",
+        "smallImageUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Mint-W.png?fit=fill&bg=FFFFFF&w=300&h=214&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416716",
+        "thumbUrl": "https://stockx.imgix.net/Converse-Chuck-Taylor-All-Star-Ox-Addict-Mint-W.png?fit=fill&bg=FFFFFF&w=140&h=100&auto=format,compress&trim=color&q=90&dpr=2&updated_at=1584416716"
+      },
+      "releaseDate": "2020-04-01 23:59:59",
+      "retailPrice": 150,
+      "styleId": "",
+      "title": "Converse Chuck Taylor All-Star Ox Addict Mint (W)",
+      "year": 2020
+    }
+  ]}

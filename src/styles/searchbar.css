@@ -40,3 +40,18 @@ form.search-wrapper {
     font-size: 26px;
     color: #fff;
 }
+
+@media (width <= 767px) {
+    input[type="search"] {
+        border-color: #333;
+        border-radius: 0;
+    }
+    input[type="search"]:focus, input[type="search"]:focus + .search-button  {
+        border-color: #000;
+    }
+    .search-button {
+        background-color: #333;
+        border-color: #333;
+        border-radius: 0;
+    }
+}

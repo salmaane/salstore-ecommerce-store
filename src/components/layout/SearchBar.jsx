@@ -6,7 +6,7 @@ import {useNavigate} from "react-router-dom";
 
 
 
-function SearchBar() {
+function SearchBar({setIsOpen}) {
 
   const navigate = useNavigate();
   const {setSearch} = useFiltersContext();
@@ -19,6 +19,7 @@ function SearchBar() {
     setSearchText('');
     navigate("/products");
     window.scrollTo(0,0);
+    setIsOpen(false);
   }
 
   return (

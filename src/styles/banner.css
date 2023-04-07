@@ -8,22 +8,23 @@
     background-repeat: no-repeat;
     background-size: cover;  
     height: 100vh;
-    padding: 1rem var(--side-padding);
+    padding: 6% var(--side-padding);
+    padding-top: 5rem;
     display: flex;
     gap: 4rem;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
     user-select: none;
 }
 .banner-container h1 {
-    font-size: 6em;
+    font-size: 6rem;
 }
 .banner-container .product-image {
     flex: 40%;
     pointer-events: none;
     z-index: 1;
+    object-fit: cover;
 }
 .title-wrapper {
     display: flex;
@@ -32,6 +33,7 @@
     flex: 35%;
     text-align: left;
     z-index: 1;
+    justify-content: center;
 }
 .banner-button {
     width: 7rem;
@@ -51,8 +53,24 @@
     height: 100.3vh;
     margin-top: -1.21px !important;
 }
-.banner .bg-image {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
+
+
+
+@media (width <= 767px) {
+    .banner-container h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .banner-container {
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-items: flex-start;
+        gap: 1.5rem;
+        padding-top: 7rem;
+    }
+    .title-wrapper {
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
 }

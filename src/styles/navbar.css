@@ -5,13 +5,14 @@
     /* --text-color: #000; */
 }
 .navbar {
-    width: 100%;
+    width: 100vw;
     padding: 0.5rem var(--side-padding);
     background-color: var(--bg-color);  
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
     display: flex;
     gap: 5rem;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     transition: all 0.3s;
@@ -77,7 +78,10 @@ nav > div {
     gap: 5px;
     cursor: pointer;
 }
-.login-button:hover, .login-button:hover .account-icon, .cart-button:hover .cart-icon{
+.login-button:hover,
+.login-button:hover .account-icon,
+.cart-button:hover .cart-icon,
+.menu-icon:hover, .close-icon:hover{
     color: var(--navlinks-hover);
     transition: color 0.2s linear;
 }
@@ -86,6 +90,69 @@ nav > div {
     border: none;
     background: none;
 }
-.cart-button .cart-icon {
+.cart-button .cart-icon , .menu-icon {
     color: var(--text-color);
+}
+.menu-icon , .close-icon {
+    display: none !important;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+@media (width <= 767px) {
+    .navbar {
+        gap: 2rem;
+        justify-content: space-between;
+        padding: 1.2rem var(--side-padding);
+        padding-bottom: 0.9rem;
+    }
+    .menu-icon, .close-icon {
+        display: block !important;
+    }
+    .close-icon {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    .navigation {
+        padding: 4rem 2rem;
+        width: 70vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        background-color: #fff;
+        position:fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100dvh;
+        overflow: hidden;
+        transform: translateX(-100%);
+    }
+    .is-open {
+        transform: translateX(0);
+        box-shadow: 0 0 0 100vw rgba(0,0,0,0.5);
+    }
+    .navbar-intersecting .navigation {
+        --text-color: #333;
+    }
+    .nav-links {
+        font-weight: bold;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .login-text {
+        font-weight: bold;
+    }
+    .account-icon {
+        display: none !important;
+    }
 }

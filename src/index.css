@@ -21,3 +21,9 @@ body {
     color: var(--text-color);
     background-color: var(--bg-color);
 }
+
+@media (width <= 767px) {
+    :root {
+        font-size: 14px;
+    }
+}

@@ -52,3 +52,9 @@
 .mini-banner .text-container a:hover {
     background-color: transparent;
 }
+
+@media (width <= 767px) {
+    .mini-banner {
+        flex-direction: column;
+    }
+}
