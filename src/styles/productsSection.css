@@ -32,3 +32,9 @@
     grid-template-columns: repeat(4,1fr);
     grid-gap: 2rem;
 }
+
+@media (width <= 767px) {
+    .products-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

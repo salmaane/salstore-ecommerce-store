@@ -22,3 +22,10 @@
     gap: 15px;
     align-items: center;
 }
+
+
+@media (width <= 767px) {
+    .delivery-wrapper {
+        flex-direction: column;
+    }
+}

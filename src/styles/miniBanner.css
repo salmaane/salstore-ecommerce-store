@@ -14,12 +14,12 @@
     background: linear-gradient(90deg, rgba(47,180,183,1) 36%, rgba(149,207,123,1) 100%);
 }
 .mini-banner img {
-    width: 20rem;
+    width: 20%;
     flex: 40%;
     border-right: 1px solid #fff;
 }
 .mini-banner .text-container {
-    width: 70%;
+    flex: 60%;
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
@@ -56,5 +56,25 @@
 @media (width <= 767px) {
     .mini-banner {
         flex-direction: column;
+        background: linear-gradient(90deg, rgba(149,207,123,1) 36%, rgba(47,180,183,1) 100%);
+
+    }
+    .mini-banner img {
+        width: 100%;
+    }
+    .mini-banner .text-container {
+        width: 100%;
+        align-items: center;
+    }
+    .mini-banner .text-container h3 {
+        width: 60%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .mini-banner .text-container h1 {
+        font-size: 2.5rem;
+    }
+    .mini-banner .text-container a  {
+        font-size: 16px;
     }
 }

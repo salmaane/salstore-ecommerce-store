@@ -43,15 +43,22 @@ form.search-wrapper {
 
 @media (width <= 767px) {
     input[type="search"] {
-        border-color: #333;
+        border: none;
+        border-bottom: 1px solid #333;
         border-radius: 0;
+        padding-left: 0;
     }
     input[type="search"]:focus, input[type="search"]:focus + .search-button  {
         border-color: #000;
     }
     .search-button {
+        background-color: transparent !important;
+        border: none;
+        border-bottom: 1px solid #333;
         background-color: #333;
-        border-color: #333;
         border-radius: 0;
+    }
+    .search-icon {
+        color: #333;
     }
 }

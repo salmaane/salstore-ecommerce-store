@@ -62,4 +62,18 @@ p.description {
     .categories {
         display: none;
     }
+    .sub-footer {
+        flex-direction: column;
+        gap: 2rem;
+        height: fit-content;
+        text-align: center;
+    }
+    .terms-privacy {
+        flex-direction: column;
+        gap: .7rem;
+        align-items: center;
+    }
+    .about-us {
+        width: 100%;
+    }
 }

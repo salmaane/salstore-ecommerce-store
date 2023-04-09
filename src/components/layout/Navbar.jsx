@@ -41,6 +41,7 @@ function Navbar() {
            sx={{scale:'130%',marginBottom:'.3rem'}}
            onClick={()=> setIsOpen(false)} 
           />
+          <SearchBar setIsOpen={setIsOpen}/>
           <div>
               <ul className="nav-links" onClick={scrollToTop} >
                   <li><Link to="/">Home</Link></li>
@@ -48,7 +49,6 @@ function Navbar() {
                   <li><Link to="/contact">Contact</Link></li>
               </ul>
           </div>
-          <SearchBar setIsOpen={setIsOpen}/>
           <Link 
             to="account" 
             className='login-button' 

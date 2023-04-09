@@ -59,7 +59,7 @@ const settings = {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 4,
+    slidesToShow: window.innerWidth < 767 ? 1 : 4,
     slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 3000,
