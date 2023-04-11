@@ -3,6 +3,8 @@ import CheckboxFilter from "../Filters/CheckboxFilter.jsx";
 import ToggleFilter from "../Filters/ToggleFilter.jsx";
 import SliderFilter from "../Filters/SliderFilter.jsx";
 import { useFiltersContext } from "../../contexts/FiltersContext";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { useState } from "react";
 
 
 function Filterpanel({brand, gender, color, price}) {
@@ -20,9 +22,11 @@ function Filterpanel({brand, gender, color, price}) {
   genders.forEach(gender => {
     gender.checked ? isFilterActive=true:null;
   });
+
+  const [isClosed,setIsClosed] = useState(false);
   
   return (
-    <div className="filter-container">
+    <div className={isClosed ? "filter-container isClosed":"filter-container"}>
         { isFilterActive ?
           <button 
             className="clear-filter"
@@ -30,7 +34,10 @@ function Filterpanel({brand, gender, color, price}) {
           ><p>Clear Filters</p></button>
           : null
         }
-        <h5>FILTER</h5>
+        <div className="filter-dropdown">
+          <h4>FILTER</h4>
+          <KeyboardArrowDownIcon onClick={()=> setIsClosed(!isClosed)} />
+        </div>
         
         <div className="brand filter">
           <p className="name">Brand</p>

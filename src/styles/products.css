@@ -25,4 +25,13 @@
     padding: 2rem var(--side-padding);
     justify-content: space-evenly;
     margin: 4rem 0;
-}  
+}
+
+
+@media (width <= 767px) {
+    .products-page-body {
+        flex-direction: column;
+        margin: 0;
+        padding-inline: 5%;
+    }
+}

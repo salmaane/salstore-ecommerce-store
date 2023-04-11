@@ -26,7 +26,7 @@ function Navbar() {
   }
 
   const [isOpen,setIsOpen] = useState(false);
-  console.log(isOpen);
+  
   return (
     <nav className='navbar' ref={navbarRef}>
         <MenuIcon 

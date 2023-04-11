@@ -82,3 +82,16 @@
     color: #888;
     font-size: 0.9rem;
 }
+
+@media (width <= 767px) {
+    .products-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .products-column .item-card {
+        width: 100%;
+    }
+    .page-nav .first , .page-nav .last {
+        display: none;
+    }
+}

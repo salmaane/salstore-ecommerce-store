@@ -59,10 +59,20 @@ const settings = {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: window.innerWidth < 767 ? 1 : 4,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true, 
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
+    responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
+          }
+        }
+    ]
 };
 const brands = [
     {   

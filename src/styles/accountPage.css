@@ -93,3 +93,11 @@ input[type="checkbox"]:focus {
     color: #888;
     font-size: 0.73rem;
 }
+
+
+@media (width <= 767px) {
+    .accountPage-container {
+        align-items: center;
+        padding-inline: 5%;
+    }
+}

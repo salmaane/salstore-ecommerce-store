@@ -1,7 +1,6 @@
 .filter-container {
-    height: fit-content;
-    max-width: 19rem;
-    min-width: 19rem;
+    max-height: fit-content;
+    width: 19rem;
     background-color: #fff;
     border: 0.5px solid #ddd;
     padding: 1.55rem;
@@ -10,6 +9,8 @@
     gap: 2rem;
     box-shadow: 0px 0px 11px 0.5px rgba(0,0,0,0.1);
     position: relative;
+    overflow: hidden;
+    transition: max-height 1s ease; /*This trans is not working*/
 }
 .filter {
     display: flex;
@@ -66,4 +67,28 @@
     right: 0;
     padding: 4px 5px;
     border-radius: 5px;
+}
+
+.filter-dropdown svg {
+    display: none;
+    font-size: 2rem;
+}
+.isClosed {
+    /* left here */
+    max-height: 3.5rem;
+    padding-block: .8rem;
+}
+
+@media (width <= 767px) {
+    .filter-container {
+        width: 100%;
+    }
+    .filter-dropdown {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .filter-dropdown svg  {
+        display: block;
+    }
 }
