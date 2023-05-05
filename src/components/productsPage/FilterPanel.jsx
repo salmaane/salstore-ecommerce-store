@@ -23,7 +23,7 @@ function Filterpanel({brand, gender, color, price}) {
     gender.checked ? isFilterActive=true:null;
   });
 
-  const [isClosed,setIsClosed] = useState(false);
+  const [isClosed,setIsClosed] = useState(true);
   
   return (
     <div className={isClosed ? "filter-container isClosed":"filter-container"}>
