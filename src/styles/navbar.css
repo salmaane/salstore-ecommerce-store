@@ -133,7 +133,7 @@ nav > div {
         top: 0;
         left: 0;
         bottom: 0;
-        height: 100dvh;
+        height: 100vh;
         overflow: hidden;
         transform: translateX(-100%);
     }

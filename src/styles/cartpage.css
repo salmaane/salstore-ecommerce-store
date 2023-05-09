@@ -40,3 +40,14 @@
 .empty-cart button:hover {
     background-color: #333;
 }
+
+/* Media queries */
+
+@media (width <= 767px) {
+    .cartpage-container {
+        flex-direction: column;
+        padding: 9rem 4%;
+        gap: 2rem;
+        padding-bottom: 3rem;
+    }
+}

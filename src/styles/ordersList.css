@@ -31,3 +31,17 @@ td.close-icon {
     text-align: center;
     padding-right: 1rem;
 }
+
+/* Media queries */
+
+@media (width <= 767px) {
+    .order-thumb {
+        width: 3rem;
+    }
+    .orders-list td, .orders-list th {
+        padding: 0.4rem 0.8rem 0.4rem 0;
+    }
+    .order-title, .close-icon-th {
+        display: none;
+    }
+}

@@ -72,3 +72,16 @@
     color: inherit;
     width: 1.5rem;
 }
+
+@media (width <= 767px) {
+    .item-card .add-to-cart {
+        translate: 0 -28px;
+        scale: 110%;
+        visibility: visible;
+        color: #fff;
+        background-color: var(--primary);
+        align-self: flex-end;
+        margin-right: 10px;
+    }
+
+}

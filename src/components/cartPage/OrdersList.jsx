@@ -11,7 +11,7 @@ function OrdersList({cartItems,getItemQuantity,incrementCart,decrementCart,remov
     <table className="orders-list">
         <thead>
         <tr>
-            <th></th>
+            <th class="close-icon-th"></th>
             <th colSpan={2}>Product</th>
             <th>Price</th>
             <th>Quantity</th>
@@ -21,13 +21,13 @@ function OrdersList({cartItems,getItemQuantity,incrementCart,decrementCart,remov
         <tbody>
         {cartItems.map(item => (
           <tr className="order-container" key={item.id}>
-            <td className="close-icon">
+            <td>
               <CloseIcon 
                 fontSize="small"
                 onClick={()=> removeFromCart(item.id)}
                 sx={{cursor:'pointer',marginRight:'0.5rem'}}
               />
-              </td>
+            </td>
             <td>
               <Link to={"/products/"+item.title} state={item}>
                 <img src={item.media.thumbUrl} className="order-thumb" />

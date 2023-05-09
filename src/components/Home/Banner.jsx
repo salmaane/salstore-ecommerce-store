@@ -68,7 +68,7 @@ const settings = {
   autoPlay:true,
   interval:13e3,
   stopOnHover:false,
-  swipeable: true,
+  swipeable: false,
   emulateTouch: true,
   // animationHandler: 'fade',
 }

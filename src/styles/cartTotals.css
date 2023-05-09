@@ -87,3 +87,10 @@
 .shipping-adress button:hover {
     background-color: #333;
 }
+
+
+@media (width <= 767px) {
+    .cart-totals {
+        min-width: 100%;
+    }
+}
