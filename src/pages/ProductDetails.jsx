@@ -16,7 +16,7 @@ function ProductDetails() {
 
   const [count,setCount] = useState(1);
   function handleDecrement() {
-    if(count == 1) return;
+    if(count <= 1) return;
     setCount(prev => prev-1);
   }
   function handleIncrement() {
@@ -52,7 +52,12 @@ function ProductDetails() {
             <span className="count">{count}</span>
             <span className="plus" onClick={handleIncrement} >+</span>
           </div>
-            <button className="add-button" onClick={()=>incrementCart(state,count)}>
+            <button 
+              className="add-button" 
+              onClick={()=>{
+                incrementCart(state,count);
+                setCount(0);
+              }}>
                 Add to Cart
               <ShoppingCartOutlinedIcon className="cart-icon"/>  
             </button>

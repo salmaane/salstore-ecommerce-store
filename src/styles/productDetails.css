@@ -144,4 +144,25 @@
     .plus {
         padding: 8px 8px;
     }
+
+    .productDetails-container {
+        flex-direction: column;
+    }
+    
+    .details-container {
+        width: 100%;
+    }
+    .details-container .brand {
+        text-align: center;
+    }
+    .add-to-cart-container {
+        justify-content: flex-start;
+    }
+    .productDetails-container .count-container {
+        margin: 0;
+    }
+    .return-container {
+        margin-top: 0;
+        width: 100%;
+    }
 }

@@ -31,3 +31,16 @@
 .thumb-image.active {
     border: 2px solid var(--primary);
 }
+
+
+@media (width <= 767px) {
+    .imageBox-container {
+        width: 100%;
+    }
+    .large-image {
+        width: 100%;
+    }
+    .thumbs-container {
+        width: 100%;
+    }
+}
