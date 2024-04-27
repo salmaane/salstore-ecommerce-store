@@ -8,6 +8,9 @@ Supported by JSON for backend communication and various tools for carousels and 
 ### Technologies Used
 React.js · Material UI · JavaScript · REST APIs · Cascading Style Sheets (CSS)
 
+### Note
+This README file is shared between the frontend and backend repositories of the Salstore Admin Portal project. You can view the backend repository [here](https://github.com/salmaane/salstore-ecommerce-store-api).
+
 ### App Preview
 #### Home page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(19).png" 
