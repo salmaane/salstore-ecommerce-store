@@ -11,53 +11,53 @@ React.js · Material UI · JavaScript · REST APIs · Cascading Style Sheets (CS
 ### App Preview
 #### Home page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(19).png" 
- height="350" width="600" alt="screenshot 1" />
+ height="350" alt="screenshot 1" />
 
 #### Home Page Section
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(20).png" 
- height="350" width="600" alt="screenshot 2" />
+ height="350" alt="screenshot 2" />
 
 #### Store Location Map
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(21).png" 
- height="350" width="600" alt="screenshot 3" />
+ height="350" alt="screenshot 3" />
 
 #### Products page with Filter
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(18).png" 
- height="350" width="600" alt="screenshot 4" />
+ height="350" alt="screenshot 4" />
 
 #### Product Search
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(27).png" 
- height="350" width="600" alt="screenshot 5" />
+ height="350" alt="screenshot 5" />
 
 #### Header & Footer
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(26).png" 
- height="350" width="600" alt="screenshot 6" />
+ height="350" alt="screenshot 6" />
  
 #### Product Details Page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(28).png" 
- height="350" width="600" alt="screenshot 7" />
+ height="350" alt="screenshot 7" />
  
 #### Products Recommendation
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(29).png" 
- height="350" width="600" alt="screenshot 8" />
+ height="350" alt="screenshot 8" />
  
 #### Cart Page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(25).png" 
- height="350" width="600" alt="screenshot 9" />
+ height="350" alt="screenshot 9" />
  
 #### Empty Cart
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(30).png" 
- height="350" width="600" alt="screenshot 10" />
+ height="350" alt="screenshot 10" />
  
 #### LogIn page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(23).png" 
- height="350" width="600" alt="screenshot 11" />
+ height="350" alt="screenshot 11" />
  
 #### SignUp Page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(24).png" 
- height="350" width="600" alt="screenshot 12" />
+ height="350" alt="screenshot 12" />
  
 #### Contact Page
 <img src="https://raw.githubusercontent.com/salmaane/salstore-ecommerce-store/master/readme_images/Screenshot%20(22).png" 
- height="350" width="600" alt="screenshot 13" />
+ height="350" alt="screenshot 13" />
  
